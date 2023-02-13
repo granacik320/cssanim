@@ -1,0 +1,412 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgb(30, 21, 55);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+.stage3{
+    $bigcubesize: 50px;
+    .bigcube{
+        animation: a-plane-rotate 5s linear 0s  infinite;
+        transform: rotateX(246deg) rotateZ(45deg);
+        transform-style: preserve-3d;
+        perspective: none;
+        transform-origin: 12.5px 12.5px;
+        position: absolute;
+        left: calc(50% - 12.5px);
+        top: calc(30% - 12.5px);
+
+        @for $g from 0 to 27{
+            .cube:nth-child(#{$g+1}){
+                animation: a-rubic-#{$g} 5s cubic-bezier(0.83,-0.02, 0.24, 1) 0s infinite;
+
+            }
+        }
+
+        div{
+            transform-style: preserve-3d;
+            perspective: none;
+        }
+
+        $cim:1px;
+
+        .c1  {transform: translateX(-($bigcubesize - $cim))  translateY(($bigcubesize - $cim))  translateZ(($bigcubesize - $cim)) }
+        .c2  {transform: translateX(-($bigcubesize - $cim))  translateY(0)  translateZ(($bigcubesize - $cim)) }
+        .c3  {transform: translateX(-($bigcubesize - $cim))  translateY(-($bigcubesize - $cim))  translateZ(($bigcubesize - $cim)) }
+        .c4  {transform: translateX(0)  translateY(($bigcubesize - $cim))  translateZ(($bigcubesize - $cim)) }
+        .c5  {transform: translateX(0)  translateY(0)  translateZ(($bigcubesize - $cim)) }
+        .c6  {transform: translateX(0)  translateY(-($bigcubesize - $cim))  translateZ(($bigcubesize - $cim)) }
+        .c7  {transform: translateX(($bigcubesize - $cim))  translateY(($bigcubesize - $cim))  translateZ(($bigcubesize - $cim)) }
+        .c8  {transform: translateX(($bigcubesize - $cim))  translateY(0)  translateZ(($bigcubesize - $cim)) }
+        .c9  {transform: translateX(($bigcubesize - $cim))  translateY(-($bigcubesize - $cim))  translateZ(($bigcubesize - $cim)) }
+        .c10  {transform: translateX(-($bigcubesize - $cim))  translateY(($bigcubesize - $cim))  translateZ(0) }
+        .c11  {transform: translateX(-($bigcubesize - $cim))  translateY(0)  translateZ(0) }
+        .c12  {transform: translateX(-($bigcubesize - $cim))  translateY(-($bigcubesize - $cim))  translateZ(0) }
+        .c13 {transform: translateX(0)  translateY(($bigcubesize - $cim))  translateZ(0) }
+        .c14 {transform: translateX(0)  translateY(0)  translateZ(0) }
+        .c15 {transform: translateX(0)  translateY(-($bigcubesize - $cim))  translateZ(0) }
+        .c16 {transform: translateX(($bigcubesize - $cim))  translateY(($bigcubesize - $cim))  translateZ(0) }
+        .c17 {transform: translateX(($bigcubesize - $cim))  translateY(0)  translateZ(0) }
+        .c18 {transform: translateX(($bigcubesize - $cim))  translateY(-($bigcubesize - $cim))  translateZ(0) }
+        .c19  {transform: translateX(-($bigcubesize - $cim))  translateY(($bigcubesize - $cim))  translateZ(-($bigcubesize - $cim)) }
+        .c20 {transform: translateX(-($bigcubesize - $cim))  translateY(0)  translateZ(-($bigcubesize - $cim)) }
+        .c21  {transform: translateX(-($bigcubesize - $cim))  translateY(-($bigcubesize - $cim))  translateZ(-($bigcubesize - $cim)) }
+        .c22 {transform: translateX(0)  translateY(($bigcubesize - $cim))  translateZ(-($bigcubesize - $cim)) }
+        .c23 {transform: translateX(0)  translateY(0)  translateZ(-($bigcubesize - $cim)) }
+        .c24 {transform: translateX(0)  translateY(-($bigcubesize - $cim))  translateZ(-($bigcubesize - $cim)) }
+        .c25 {transform: translateX(($bigcubesize - $cim))  translateY(($bigcubesize - $cim))  translateZ(-($bigcubesize - $cim)) }
+        .c26 {transform: translateX(($bigcubesize - $cim))  translateY(0)  translateZ(-($bigcubesize - $cim)) }
+        .c27 {transform: translateX(($bigcubesize - $cim))  translateY(-($bigcubesize - $cim))  translateZ(-($bigcubesize - $cim)) }
+
+        .cube>div{
+            position:absolute;
+            width:100%;
+            height:100%;
+        }
+        .cube{
+            width: $bigcubesize;
+            height: $bigcubesize;
+            position: absolute;
+
+            .left{
+                transform: rotateX(-180deg) rotateY(90deg);
+                transform-origin:left;
+                top:0%;
+                right:0%;
+                background-color: rgba(0, 156, 187, 0.705);
+            }
+
+            .right{
+                transform: rotateY(-90deg);
+                transform-origin:left;
+                left:100%;
+                background-color: rgba(0, 156, 187, 0.705);
+            }
+            .back{
+                transform: rotateX(90deg) translate3d(0, 0, 0px);
+                transform-origin:top;
+                top:0;
+                left:0%;
+                background-color: rgba(45, 200, 231, 0.705);
+            }
+
+            .front{
+                transform: rotateX(90deg) rotateZ(0deg);
+                transform-origin:top;
+                top:100%;
+                left:0;
+                background-color: rgba(45, 200, 231, 0.705);
+            }
+            .top{
+                transform: rotateX(0deg) translateZ(0px);
+                transform-origin:top;
+                top:0%;
+                left:0%;
+                background-color: rgba(0, 255, 255, 0.705);
+            }
+        }
+        @keyframes a-plane-rotate {
+            0%{    transform: rotateX(246deg) rotateZ(45deg);}
+            10%{    transform: rotateX(236deg) rotateZ(180deg);}
+            100%{transform: rotateX(246deg) rotateZ(45deg)}
+        }
+        @keyframes a-rubic-0 {
+            0%{transform: translateX(-($bigcubesize - $cim))  translateY(($bigcubesize - $cim))  translateZ(($bigcubesize - $cim)) }
+            10%{transform: translateX(-($bigcubesize*2 - $cim))  translateY(($bigcubesize*2 - $cim))  translateZ(($bigcubesize*2 - $cim)) }
+            50%{transform: translateX(-($bigcubesize*2 - $cim))  translateY(($bigcubesize*2 - $cim))  translateZ(($bigcubesize - $cim)) }
+            75%{transform: translateX(-($bigcubesize*2 - $cim))  translateY(($bigcubesize - $cim))  translateZ(($bigcubesize - $cim)) }
+            100%{transform: translateX(-($bigcubesize - $cim))  translateY(($bigcubesize - $cim))  translateZ(($bigcubesize - $cim)) }
+        }
+        @keyframes a-rubic-1 {
+            0%{transform: translateX(-($bigcubesize - $cim))  translateY(0)  translateZ(($bigcubesize - $cim)) }
+            10%{transform: translateX(-($bigcubesize*2 - $cim))  translateY(0)  translateZ(($bigcubesize*2 - $cim)) }
+            50%{transform: translateX(-($bigcubesize*2 - $cim))  translateY(0)  translateZ(($bigcubesize - $cim)) }
+            75%{transform: translateX(-($bigcubesize*2 - $cim))  translateY(0)  translateZ(($bigcubesize - $cim)) }
+            100%{transform: translateX(-($bigcubesize - $cim))  translateY(0)  translateZ(($bigcubesize - $cim))  }
+        }
+        @keyframes a-rubic-2 {
+            0%{transform: translateX(-($bigcubesize - $cim))  translateY(-($bigcubesize - $cim))  translateZ(($bigcubesize - $cim)) }
+            10%{transform: translateX(-($bigcubesize*2 - $cim))  translateY(-($bigcubesize*2 - $cim))  translateZ(($bigcubesize*2 - $cim)) }
+            50%{transform: translateX(-($bigcubesize*2 - $cim))  translateY(-($bigcubesize*2 - $cim))  translateZ(($bigcubesize - $cim)) }
+            75%{transform: translateX(-($bigcubesize*2 - $cim))  translateY(-($bigcubesize - $cim))  translateZ(($bigcubesize - $cim)) }
+            100%{transform: translateX(-($bigcubesize - $cim))  translateY(-($bigcubesize - $cim))  translateZ(($bigcubesize - $cim)) }
+        }
+        @keyframes a-rubic-9 {
+            0%{transform: translateX(-($bigcubesize - $cim))  translateY(($bigcubesize - $cim))  translateZ(0) }
+            10%{transform: translateX(-($bigcubesize*2 - $cim))  translateY(($bigcubesize*2 - $cim))  translateZ(0) }
+            50%{transform: translateX(-($bigcubesize*2 - $cim))  translateY(($bigcubesize*2 - $cim))  translateZ(0) }
+            75%{transform: translateX(-($bigcubesize*2 - $cim))  translateY(($bigcubesize - $cim))  translateZ(0) }
+            100%{transform: translateX(-($bigcubesize - $cim))  translateY(($bigcubesize - $cim))  translateZ(0) }
+        }
+        @keyframes a-rubic-10 {
+            0%{transform: translateX(-($bigcubesize - $cim))  translateY(0)  translateZ(0) }
+            10%{transform: translateX(-($bigcubesize*2 - $cim))  translateY(0)  translateZ(0) }
+            50%{transform: translateX(-($bigcubesize*2 - $cim))  translateY(0)  translateZ(0) }
+            75%{transform: translateX(-($bigcubesize*2 - $cim))  translateY(0)  translateZ(0) }
+            100%{transform: translateX(-($bigcubesize - $cim))  translateY(0)  translateZ(0) }
+        }
+        @keyframes a-rubic-11 {
+            0%{transform: translateX(-($bigcubesize - $cim))  translateY(-($bigcubesize - $cim))  translateZ(0) }
+            10%{transform: translateX(-($bigcubesize*2 - $cim))  translateY(-($bigcubesize*2 - $cim))  translateZ(0) }
+            50%{transform: translateX(-($bigcubesize*2 - $cim))  translateY(-($bigcubesize*2 - $cim))  translateZ(0) }
+            75%{transform: translateX(-($bigcubesize*2 - $cim))  translateY(-($bigcubesize - $cim))  translateZ(0) }
+            100%{transform: translateX(-($bigcubesize - $cim))  translateY(-($bigcubesize - $cim))  translateZ(0) }
+        }
+        @keyframes a-rubic-18 {
+            0%{transform: translateX(-($bigcubesize - $cim))  translateY(($bigcubesize - $cim))  translateZ(-($bigcubesize - $cim)) }
+            10%{transform: translateX(-($bigcubesize*2 - $cim))  translateY(($bigcubesize*2 - $cim))  translateZ(-($bigcubesize*2 - $cim)) }
+            50%{transform: translateX(-($bigcubesize*2 - $cim))  translateY(($bigcubesize*2 - $cim))  translateZ(-($bigcubesize - $cim)) }
+            75%{transform: translateX(-($bigcubesize*2 - $cim))  translateY(($bigcubesize - $cim))  translateZ(-($bigcubesize - $cim)) }
+            100%{transform: translateX(-($bigcubesize - $cim))  translateY(($bigcubesize - $cim))  translateZ(-($bigcubesize - $cim)) }
+        }
+        @keyframes a-rubic-19 {
+            0%{transform: translateX(-($bigcubesize - $cim))  translateY(0)  translateZ(-($bigcubesize - $cim)) }
+            10%{transform: translateX(-($bigcubesize*2 - $cim))  translateY(0)  translateZ(-($bigcubesize*2 - $cim)) }
+            50%{transform: translateX(-($bigcubesize*2 - $cim))  translateY(0)  translateZ(-($bigcubesize - $cim)) }
+            75%{transform: translateX(-($bigcubesize*2 - $cim))  translateY(0)  translateZ(-($bigcubesize - $cim)) }
+            100%{transform: translateX(-($bigcubesize - $cim))  translateY(0)  translateZ(-($bigcubesize - $cim))  }
+        }
+        @keyframes a-rubic-20 {
+            0%{transform: translateX(-($bigcubesize - $cim))  translateY(-($bigcubesize - $cim))  translateZ(-($bigcubesize - $cim)) }
+            10%{transform: translateX(-($bigcubesize*2 - $cim))  translateY(-($bigcubesize*2 - $cim))  translateZ(-($bigcubesize*2 - $cim)) }
+            50%{transform: translateX(-($bigcubesize*2 - $cim))  translateY(-($bigcubesize*2 - $cim))  translateZ(-($bigcubesize - $cim)) }
+            75%{transform: translateX(-($bigcubesize*2 - $cim))  translateY(-($bigcubesize - $cim))  translateZ(-($bigcubesize - $cim)) }
+            100%{transform: translateX(-($bigcubesize - $cim))  translateY(-($bigcubesize - $cim))  translateZ(-($bigcubesize - $cim)) }
+        }
+        @keyframes a-rubic-6 {
+            0%{transform: translateX(($bigcubesize - $cim))  translateY(($bigcubesize - $cim))  translateZ(($bigcubesize - $cim)) }
+            10%{transform: translateX(($bigcubesize*2 - $cim))  translateY(($bigcubesize*2 - $cim))  translateZ(($bigcubesize*2 - $cim)) }
+            50%{transform: translateX(($bigcubesize*2 - $cim))  translateY(($bigcubesize*2 - $cim))  translateZ(($bigcubesize - $cim)) }
+            75%{transform: translateX(($bigcubesize*2 - $cim))  translateY(($bigcubesize - $cim))  translateZ(($bigcubesize - $cim)) }
+            100%{transform: translateX(($bigcubesize - $cim))  translateY(($bigcubesize - $cim))  translateZ(($bigcubesize - $cim)) }
+        }
+        @keyframes a-rubic-7 {
+            0%{transform: translateX(($bigcubesize - $cim))  translateY(0)  translateZ(($bigcubesize - $cim)) }
+            10%{transform: translateX(($bigcubesize*2 - $cim))  translateY(0)  translateZ(($bigcubesize*2 - $cim)) }
+            50%{transform: translateX(($bigcubesize*2 - $cim))  translateY(0)  translateZ(($bigcubesize - $cim)) }
+            75%{transform: translateX(($bigcubesize*2 - $cim))  translateY(0)  translateZ(($bigcubesize - $cim)) }
+            100%{transform: translateX(($bigcubesize - $cim))  translateY(0)  translateZ(($bigcubesize - $cim))  }
+        }
+        @keyframes a-rubic-8 {
+            0%{transform: translateX(($bigcubesize - $cim))  translateY(-($bigcubesize - $cim))  translateZ(($bigcubesize - $cim)) }
+            10%{transform: translateX(($bigcubesize*2 - $cim))  translateY(-($bigcubesize*2 - $cim))  translateZ(($bigcubesize*2 - $cim)) }
+            50%{transform: translateX(($bigcubesize*2 - $cim))  translateY(-($bigcubesize*2 - $cim))  translateZ(($bigcubesize - $cim)) }
+            75%{transform: translateX(($bigcubesize*2 - $cim))  translateY(-($bigcubesize - $cim))  translateZ(($bigcubesize - $cim)) }
+            100%{transform: translateX(($bigcubesize - $cim))  translateY(-($bigcubesize - $cim))  translateZ(($bigcubesize - $cim)) }
+        }
+        @keyframes a-rubic-15 {
+            0%{transform: translateX(($bigcubesize - $cim))  translateY(($bigcubesize - $cim))  translateZ(0) }
+            10%{transform: translateX(($bigcubesize*2 - $cim))  translateY(($bigcubesize*2 - $cim))  translateZ(0) }
+            50%{transform: translateX(($bigcubesize*2 - $cim))  translateY(($bigcubesize*2 - $cim))  translateZ(0) }
+            75%{transform: translateX(($bigcubesize*2 - $cim))  translateY(($bigcubesize - $cim))  translateZ(0) }
+            100%{transform: translateX(($bigcubesize - $cim))  translateY(($bigcubesize - $cim))  translateZ(0) }
+        }
+        @keyframes a-rubic-16 {
+            0%{transform: translateX(($bigcubesize - $cim))  translateY(0)  translateZ(0) }
+            10%{transform: translateX(($bigcubesize*2 - $cim))  translateY(0)  translateZ(0) }
+            50%{transform: translateX(($bigcubesize*2 - $cim))  translateY(0)  translateZ(0) }
+            75%{transform: translateX(($bigcubesize*2 - $cim))  translateY(0)  translateZ(0) }
+            100%{transform: translateX(($bigcubesize - $cim))  translateY(0)  translateZ(0) }
+        }
+        @keyframes a-rubic-17 {
+            0%{transform: translateX(($bigcubesize - $cim))  translateY(-($bigcubesize - $cim))  translateZ(0) }
+            10%{transform: translateX(($bigcubesize*2 - $cim))  translateY(-($bigcubesize*2 - $cim))  translateZ(0) }
+            50%{transform: translateX(($bigcubesize*2 - $cim))  translateY(-($bigcubesize*2 - $cim))  translateZ(0) }
+            75%{transform: translateX(($bigcubesize*2 - $cim))  translateY(-($bigcubesize - $cim))  translateZ(0) }
+            100%{transform: translateX(($bigcubesize - $cim))  translateY(-($bigcubesize - $cim))  translateZ(0) }
+        }
+        @keyframes a-rubic-24 {
+            0%{transform: translateX(($bigcubesize - $cim))  translateY(($bigcubesize - $cim))  translateZ(-($bigcubesize - $cim)) }
+            10%{transform: translateX(($bigcubesize*2 - $cim))  translateY(($bigcubesize*2 - $cim))  translateZ(-($bigcubesize*2 - $cim)) }
+            50%{transform: translateX(($bigcubesize*2 - $cim))  translateY(($bigcubesize*2 - $cim))  translateZ(-($bigcubesize - $cim)) }
+            75%{transform: translateX(($bigcubesize*2 - $cim))  translateY(($bigcubesize - $cim))  translateZ(-($bigcubesize - $cim)) }
+            100%{transform: translateX(($bigcubesize - $cim))  translateY(($bigcubesize - $cim))  translateZ(-($bigcubesize - $cim)) }
+        }
+        @keyframes a-rubic-25 {
+            0%{transform: translateX(($bigcubesize - $cim))  translateY(0)  translateZ(-($bigcubesize - $cim)) }
+            10%{transform: translateX(($bigcubesize*2 - $cim))  translateY(0)  translateZ(-($bigcubesize*2 - $cim)) }
+            50%{transform: translateX(($bigcubesize*2 - $cim))  translateY(0)  translateZ(-($bigcubesize - $cim)) }
+            75%{transform: translateX(($bigcubesize*2 - $cim))  translateY(0)  translateZ(-($bigcubesize - $cim)) }
+            100%{transform: translateX(($bigcubesize - $cim))  translateY(0)  translateZ(-($bigcubesize - $cim))  }
+        }
+        @keyframes a-rubic-26 {
+            0%{transform: translateX(($bigcubesize - $cim))  translateY(-($bigcubesize - $cim))  translateZ(-($bigcubesize - $cim)) }
+            10%{transform: translateX(($bigcubesize*2 - $cim))  translateY(-($bigcubesize*2 - $cim))  translateZ(-($bigcubesize*2 - $cim)) }
+            50%{transform: translateX(($bigcubesize*2 - $cim))  translateY(-($bigcubesize*2 - $cim))  translateZ(-($bigcubesize - $cim)) }
+            75%{transform: translateX(($bigcubesize*2 - $cim))  translateY(-($bigcubesize - $cim))  translateZ(-($bigcubesize - $cim)) }
+            100%{transform: translateX(($bigcubesize - $cim))  translateY(-($bigcubesize - $cim))  translateZ(-($bigcubesize - $cim)) }
+        }
+        @keyframes a-rubic-21 {
+            0%{transform: translateX(0)  translateY(($bigcubesize - $cim))  translateZ(-($bigcubesize - $cim)) }
+            10%{transform: translateX(0)  translateY(($bigcubesize*2 - $cim))  translateZ(-($bigcubesize*2 - $cim)) }
+            50%{transform: translateX(0)  translateY(($bigcubesize*2 - $cim))  translateZ(-($bigcubesize - $cim)) }
+            75%{transform: translateX(0)  translateY(($bigcubesize - $cim))  translateZ(-($bigcubesize - $cim)) }
+            100%{transform: translateX(0)  translateY(($bigcubesize - $cim))  translateZ(-($bigcubesize - $cim)) }
+        }
+        @keyframes a-rubic-22 {
+            0%{transform: translateX(0)  translateY(0)  translateZ(-($bigcubesize - $cim)) }
+            10%{transform: translateX(0)  translateY(0)  translateZ(-($bigcubesize*2 - $cim)) }
+            50%{transform: translateX(0)  translateY(0)  translateZ(-($bigcubesize - $cim)) }
+            75%{transform: translateX(0)  translateY(0)  translateZ(-($bigcubesize - $cim)) }
+            100%{transform: translateX(0)  translateY(0)  translateZ(-($bigcubesize - $cim)) }
+        }
+        @keyframes a-rubic-23 {
+            0%{transform: translateX(0)  translateY(-($bigcubesize - $cim))  translateZ(-($bigcubesize - $cim)) }
+            10%{transform: translateX(0)  translateY(-($bigcubesize*2 - $cim))  translateZ(-($bigcubesize*2 - $cim)) }
+            50%{transform: translateX(0)  translateY(-($bigcubesize*2 - $cim))  translateZ(-($bigcubesize - $cim)) }
+            75%{transform: translateX(0)  translateY(-($bigcubesize - $cim))  translateZ(-($bigcubesize - $cim)) }
+            100%{transform: translateX(0)  translateY(-($bigcubesize - $cim))  translateZ(-($bigcubesize - $cim)) }
+        }
+        @keyframes a-rubic-3 {
+            0%{transform: translateX(0)  translateY(($bigcubesize - $cim))  translateZ(($bigcubesize - $cim)) }
+            10%{transform: translateX(0)  translateY(($bigcubesize*2 - $cim))  translateZ(($bigcubesize*2 - $cim)) }
+            50%{transform: translateX(0)  translateY(($bigcubesize*2 - $cim))  translateZ(($bigcubesize - $cim)) }
+            75%{transform: translateX(0)  translateY(($bigcubesize - $cim))  translateZ(($bigcubesize - $cim)) }
+            100%{transform: translateX(0)  translateY(($bigcubesize - $cim))  translateZ(($bigcubesize - $cim)) }
+        }
+        @keyframes a-rubic-4 {
+            0%{transform: translateX(0)  translateY(0)  translateZ(($bigcubesize - $cim)) }
+            10%{transform: translateX(0)  translateY(0)  translateZ(($bigcubesize*2 - $cim)) }
+            50%{transform: translateX(0)  translateY(0)  translateZ(($bigcubesize - $cim)) }
+            75%{transform: translateX(0)  translateY(0)  translateZ(($bigcubesize - $cim)) }
+            100%{transform: translateX(0)  translateY(0)  translateZ(($bigcubesize - $cim))  }
+        }
+        @keyframes a-rubic-5 {
+            0%{transform: translateX(0)  translateY(-($bigcubesize - $cim))  translateZ(($bigcubesize - $cim)) }
+            10%{transform: translateX(0)  translateY(-($bigcubesize*2 - $cim))  translateZ(($bigcubesize*2 - $cim)) }
+            50%{transform: translateX(0)  translateY(-($bigcubesize*2 - $cim))  translateZ(($bigcubesize - $cim)) }
+            75%{transform: translateX(0)  translateY(-($bigcubesize - $cim))  translateZ(($bigcubesize - $cim)) }
+            100%{transform: translateX(0)  translateY(-($bigcubesize - $cim))  translateZ(($bigcubesize - $cim)) }
+        }
+        @keyframes a-rubic-12 {
+            0%{transform: translateX(0)  translateY(($bigcubesize - $cim))  translateZ(0) }
+            10%{transform: translateX(0)  translateY(($bigcubesize*2 - $cim))  translateZ(0) }
+            50%{transform: translateX(0)  translateY(($bigcubesize*2 - $cim))  translateZ(0) }
+            75%{transform: translateX(0)  translateY(($bigcubesize - $cim))  translateZ(0) }
+            100%{transform: translateX(0)  translateY(($bigcubesize - $cim))  translateZ(0) }
+        }
+        @keyframes a-rubic-14 {
+            0%{transform: translateX(0)  translateY(-($bigcubesize - $cim))  translateZ(0) }
+            10%{transform: translateX(0)  translateY(-($bigcubesize*2 - $cim))  translateZ(0) }
+            50%{transform: translateX(0)  translateY(-($bigcubesize*2 - $cim))  translateZ(0) }
+            75%{transform: translateX(0)  translateY(-($bigcubesize - $cim))  translateZ(0) }
+            100%{transform: translateX(0)  translateY(-($bigcubesize - $cim))  translateZ(0) }
+        }
+    }
+    $cubesize: 40px;
+    .plane{
+        animation: a-plane-rotate 15s linear 0s  infinite;
+        transform: rotateX(246deg) rotateZ(45deg);
+        transform-style: preserve-3d;
+        perspective: none;
+        transform-origin: calc($cubesize*8) calc($cubesize*8);
+        position: absolute;
+        left: calc(50% - $cubesize*8);
+        top: calc(75% - $cubesize*8);
+        div{
+            transform-style: preserve-3d;
+            perspective: none;
+        }
+        .cube{
+            width: $cubesize;
+            height: $cubesize;
+            position: absolute;
+            transform: translateZ(50px);
+        }
+        .cube>div{
+            transition: .7s;
+            position:absolute;
+            width:100%;
+            height:100%;
+            // @for $y from 1 to 5{
+            //     &:nth-of-type(#{$y}){
+            //         animation: a-shadow 15s linear calc(#{$y}*3.75s) infinite;
+            //     }
+            // }
+        }
+
+        .left{
+            transform: rotateX(-180deg) rotateY(90deg);
+            transform-origin:left;
+            top:0%;
+            right:0%;
+        }
+
+        .right{
+            transform: rotateY(-90deg);
+            transform-origin:left;
+            left:100%;
+        }
+        .back{
+            transform: rotateX(90deg) translate3d(0, 0, 0px);
+            transform-origin:top;
+            top:0;
+            left:0%;
+        }
+
+        .front{
+            transform: rotateX(90deg) rotateZ(0deg);
+            transform-origin:top;
+            top:100%;
+            left:0;
+        }
+        .top{
+            transform: rotateX(0deg) translateZ(0px);
+            transform-origin:top;
+            top:0%;
+            left:0%;
+        }
+        @for $i from 0 to 16{
+            .row:nth-of-type(#{$i+1}){
+                top: calc($cubesize*$i);
+                @for $j from 0 to 16{
+                    .cube:nth-of-type(#{$j+1}){
+                        div:not(.top){
+                            background-color: rgb(calc(#{random(155)+50}), 0, 200);
+                        }
+                        .top{
+                            background-color: rgb(calc(#{random(155)+100}), 0, 255);
+                        }
+                        animation: a-cube-wave 2.3s ease-in-out calc(#{$j + $i}*.1s)  infinite;
+                    }
+                }
+            }
+            .cube:nth-of-type(#{$i+1}){
+                left: calc($cubesize*$i);
+            }
+        }
+        .row{
+            position: absolute;
+            width: calc($cubesize*16);
+            height: $cubesize;
+        }
+    }
+    @keyframes a-cube-wave {
+        0%{
+            transform: translateZ(50px);
+        }
+        50%{
+            transform: translateZ(-50px);
+        }
+        100%{
+            transform: translateZ(50px);
+        }
+    }
+    @keyframes a-plane-rotate {
+        0%{
+            transform: rotateX(246deg) rotateZ(0deg);
+        }
+        50%{
+            transform: rotateX(266deg) rotateZ(180deg);
+        }
+        100%{
+            transform: rotateX(246deg) rotateZ(360deg);
+        }
+    }
+}

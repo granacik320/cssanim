@@ -1,0 +1,3169 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: rgb(30, 21, 55);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.stage3 .bigcube {
+  animation: a-plane-rotate 5s linear 0s infinite;
+  transform: rotateX(246deg) rotateZ(45deg);
+  transform-style: preserve-3d;
+  perspective: none;
+  transform-origin: 12.5px 12.5px;
+  position: absolute;
+  left: calc(50% - 12.5px);
+  top: calc(30% - 12.5px);
+}
+.stage3 .bigcube .cube:nth-child(1) {
+  animation: a-rubic-0 5s cubic-bezier(0.83, -0.02, 0.24, 1) 0s infinite;
+}
+.stage3 .bigcube .cube:nth-child(2) {
+  animation: a-rubic-1 5s cubic-bezier(0.83, -0.02, 0.24, 1) 0s infinite;
+}
+.stage3 .bigcube .cube:nth-child(3) {
+  animation: a-rubic-2 5s cubic-bezier(0.83, -0.02, 0.24, 1) 0s infinite;
+}
+.stage3 .bigcube .cube:nth-child(4) {
+  animation: a-rubic-3 5s cubic-bezier(0.83, -0.02, 0.24, 1) 0s infinite;
+}
+.stage3 .bigcube .cube:nth-child(5) {
+  animation: a-rubic-4 5s cubic-bezier(0.83, -0.02, 0.24, 1) 0s infinite;
+}
+.stage3 .bigcube .cube:nth-child(6) {
+  animation: a-rubic-5 5s cubic-bezier(0.83, -0.02, 0.24, 1) 0s infinite;
+}
+.stage3 .bigcube .cube:nth-child(7) {
+  animation: a-rubic-6 5s cubic-bezier(0.83, -0.02, 0.24, 1) 0s infinite;
+}
+.stage3 .bigcube .cube:nth-child(8) {
+  animation: a-rubic-7 5s cubic-bezier(0.83, -0.02, 0.24, 1) 0s infinite;
+}
+.stage3 .bigcube .cube:nth-child(9) {
+  animation: a-rubic-8 5s cubic-bezier(0.83, -0.02, 0.24, 1) 0s infinite;
+}
+.stage3 .bigcube .cube:nth-child(10) {
+  animation: a-rubic-9 5s cubic-bezier(0.83, -0.02, 0.24, 1) 0s infinite;
+}
+.stage3 .bigcube .cube:nth-child(11) {
+  animation: a-rubic-10 5s cubic-bezier(0.83, -0.02, 0.24, 1) 0s infinite;
+}
+.stage3 .bigcube .cube:nth-child(12) {
+  animation: a-rubic-11 5s cubic-bezier(0.83, -0.02, 0.24, 1) 0s infinite;
+}
+.stage3 .bigcube .cube:nth-child(13) {
+  animation: a-rubic-12 5s cubic-bezier(0.83, -0.02, 0.24, 1) 0s infinite;
+}
+.stage3 .bigcube .cube:nth-child(14) {
+  animation: a-rubic-13 5s cubic-bezier(0.83, -0.02, 0.24, 1) 0s infinite;
+}
+.stage3 .bigcube .cube:nth-child(15) {
+  animation: a-rubic-14 5s cubic-bezier(0.83, -0.02, 0.24, 1) 0s infinite;
+}
+.stage3 .bigcube .cube:nth-child(16) {
+  animation: a-rubic-15 5s cubic-bezier(0.83, -0.02, 0.24, 1) 0s infinite;
+}
+.stage3 .bigcube .cube:nth-child(17) {
+  animation: a-rubic-16 5s cubic-bezier(0.83, -0.02, 0.24, 1) 0s infinite;
+}
+.stage3 .bigcube .cube:nth-child(18) {
+  animation: a-rubic-17 5s cubic-bezier(0.83, -0.02, 0.24, 1) 0s infinite;
+}
+.stage3 .bigcube .cube:nth-child(19) {
+  animation: a-rubic-18 5s cubic-bezier(0.83, -0.02, 0.24, 1) 0s infinite;
+}
+.stage3 .bigcube .cube:nth-child(20) {
+  animation: a-rubic-19 5s cubic-bezier(0.83, -0.02, 0.24, 1) 0s infinite;
+}
+.stage3 .bigcube .cube:nth-child(21) {
+  animation: a-rubic-20 5s cubic-bezier(0.83, -0.02, 0.24, 1) 0s infinite;
+}
+.stage3 .bigcube .cube:nth-child(22) {
+  animation: a-rubic-21 5s cubic-bezier(0.83, -0.02, 0.24, 1) 0s infinite;
+}
+.stage3 .bigcube .cube:nth-child(23) {
+  animation: a-rubic-22 5s cubic-bezier(0.83, -0.02, 0.24, 1) 0s infinite;
+}
+.stage3 .bigcube .cube:nth-child(24) {
+  animation: a-rubic-23 5s cubic-bezier(0.83, -0.02, 0.24, 1) 0s infinite;
+}
+.stage3 .bigcube .cube:nth-child(25) {
+  animation: a-rubic-24 5s cubic-bezier(0.83, -0.02, 0.24, 1) 0s infinite;
+}
+.stage3 .bigcube .cube:nth-child(26) {
+  animation: a-rubic-25 5s cubic-bezier(0.83, -0.02, 0.24, 1) 0s infinite;
+}
+.stage3 .bigcube .cube:nth-child(27) {
+  animation: a-rubic-26 5s cubic-bezier(0.83, -0.02, 0.24, 1) 0s infinite;
+}
+.stage3 .bigcube div {
+  transform-style: preserve-3d;
+  perspective: none;
+}
+.stage3 .bigcube .c1 {
+  transform: translateX(-49px) translateY(49px) translateZ(49px);
+}
+.stage3 .bigcube .c2 {
+  transform: translateX(-49px) translateY(0) translateZ(49px);
+}
+.stage3 .bigcube .c3 {
+  transform: translateX(-49px) translateY(-49px) translateZ(49px);
+}
+.stage3 .bigcube .c4 {
+  transform: translateX(0) translateY(49px) translateZ(49px);
+}
+.stage3 .bigcube .c5 {
+  transform: translateX(0) translateY(0) translateZ(49px);
+}
+.stage3 .bigcube .c6 {
+  transform: translateX(0) translateY(-49px) translateZ(49px);
+}
+.stage3 .bigcube .c7 {
+  transform: translateX(49px) translateY(49px) translateZ(49px);
+}
+.stage3 .bigcube .c8 {
+  transform: translateX(49px) translateY(0) translateZ(49px);
+}
+.stage3 .bigcube .c9 {
+  transform: translateX(49px) translateY(-49px) translateZ(49px);
+}
+.stage3 .bigcube .c10 {
+  transform: translateX(-49px) translateY(49px) translateZ(0);
+}
+.stage3 .bigcube .c11 {
+  transform: translateX(-49px) translateY(0) translateZ(0);
+}
+.stage3 .bigcube .c12 {
+  transform: translateX(-49px) translateY(-49px) translateZ(0);
+}
+.stage3 .bigcube .c13 {
+  transform: translateX(0) translateY(49px) translateZ(0);
+}
+.stage3 .bigcube .c14 {
+  transform: translateX(0) translateY(0) translateZ(0);
+}
+.stage3 .bigcube .c15 {
+  transform: translateX(0) translateY(-49px) translateZ(0);
+}
+.stage3 .bigcube .c16 {
+  transform: translateX(49px) translateY(49px) translateZ(0);
+}
+.stage3 .bigcube .c17 {
+  transform: translateX(49px) translateY(0) translateZ(0);
+}
+.stage3 .bigcube .c18 {
+  transform: translateX(49px) translateY(-49px) translateZ(0);
+}
+.stage3 .bigcube .c19 {
+  transform: translateX(-49px) translateY(49px) translateZ(-49px);
+}
+.stage3 .bigcube .c20 {
+  transform: translateX(-49px) translateY(0) translateZ(-49px);
+}
+.stage3 .bigcube .c21 {
+  transform: translateX(-49px) translateY(-49px) translateZ(-49px);
+}
+.stage3 .bigcube .c22 {
+  transform: translateX(0) translateY(49px) translateZ(-49px);
+}
+.stage3 .bigcube .c23 {
+  transform: translateX(0) translateY(0) translateZ(-49px);
+}
+.stage3 .bigcube .c24 {
+  transform: translateX(0) translateY(-49px) translateZ(-49px);
+}
+.stage3 .bigcube .c25 {
+  transform: translateX(49px) translateY(49px) translateZ(-49px);
+}
+.stage3 .bigcube .c26 {
+  transform: translateX(49px) translateY(0) translateZ(-49px);
+}
+.stage3 .bigcube .c27 {
+  transform: translateX(49px) translateY(-49px) translateZ(-49px);
+}
+.stage3 .bigcube .cube > div {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.stage3 .bigcube .cube {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+}
+.stage3 .bigcube .cube .left {
+  transform: rotateX(-180deg) rotateY(90deg);
+  transform-origin: left;
+  top: 0%;
+  right: 0%;
+  background-color: rgba(0, 156, 187, 0.705);
+}
+.stage3 .bigcube .cube .right {
+  transform: rotateY(-90deg);
+  transform-origin: left;
+  left: 100%;
+  background-color: rgba(0, 156, 187, 0.705);
+}
+.stage3 .bigcube .cube .back {
+  transform: rotateX(90deg) translate3d(0, 0, 0px);
+  transform-origin: top;
+  top: 0;
+  left: 0%;
+  background-color: rgba(45, 200, 231, 0.705);
+}
+.stage3 .bigcube .cube .front {
+  transform: rotateX(90deg) rotateZ(0deg);
+  transform-origin: top;
+  top: 100%;
+  left: 0;
+  background-color: rgba(45, 200, 231, 0.705);
+}
+.stage3 .bigcube .cube .top {
+  transform: rotateX(0deg) translateZ(0px);
+  transform-origin: top;
+  top: 0%;
+  left: 0%;
+  background-color: rgba(0, 255, 255, 0.705);
+}
+@keyframes a-plane-rotate {
+  0% {
+    transform: rotateX(246deg) rotateZ(45deg);
+  }
+  10% {
+    transform: rotateX(236deg) rotateZ(180deg);
+  }
+  100% {
+    transform: rotateX(246deg) rotateZ(45deg);
+  }
+}
+@keyframes a-rubic-0 {
+  0% {
+    transform: translateX(-49px) translateY(49px) translateZ(49px);
+  }
+  10% {
+    transform: translateX(-99px) translateY(99px) translateZ(99px);
+  }
+  50% {
+    transform: translateX(-99px) translateY(99px) translateZ(49px);
+  }
+  75% {
+    transform: translateX(-99px) translateY(49px) translateZ(49px);
+  }
+  100% {
+    transform: translateX(-49px) translateY(49px) translateZ(49px);
+  }
+}
+@keyframes a-rubic-1 {
+  0% {
+    transform: translateX(-49px) translateY(0) translateZ(49px);
+  }
+  10% {
+    transform: translateX(-99px) translateY(0) translateZ(99px);
+  }
+  50% {
+    transform: translateX(-99px) translateY(0) translateZ(49px);
+  }
+  75% {
+    transform: translateX(-99px) translateY(0) translateZ(49px);
+  }
+  100% {
+    transform: translateX(-49px) translateY(0) translateZ(49px);
+  }
+}
+@keyframes a-rubic-2 {
+  0% {
+    transform: translateX(-49px) translateY(-49px) translateZ(49px);
+  }
+  10% {
+    transform: translateX(-99px) translateY(-99px) translateZ(99px);
+  }
+  50% {
+    transform: translateX(-99px) translateY(-99px) translateZ(49px);
+  }
+  75% {
+    transform: translateX(-99px) translateY(-49px) translateZ(49px);
+  }
+  100% {
+    transform: translateX(-49px) translateY(-49px) translateZ(49px);
+  }
+}
+@keyframes a-rubic-9 {
+  0% {
+    transform: translateX(-49px) translateY(49px) translateZ(0);
+  }
+  10% {
+    transform: translateX(-99px) translateY(99px) translateZ(0);
+  }
+  50% {
+    transform: translateX(-99px) translateY(99px) translateZ(0);
+  }
+  75% {
+    transform: translateX(-99px) translateY(49px) translateZ(0);
+  }
+  100% {
+    transform: translateX(-49px) translateY(49px) translateZ(0);
+  }
+}
+@keyframes a-rubic-10 {
+  0% {
+    transform: translateX(-49px) translateY(0) translateZ(0);
+  }
+  10% {
+    transform: translateX(-99px) translateY(0) translateZ(0);
+  }
+  50% {
+    transform: translateX(-99px) translateY(0) translateZ(0);
+  }
+  75% {
+    transform: translateX(-99px) translateY(0) translateZ(0);
+  }
+  100% {
+    transform: translateX(-49px) translateY(0) translateZ(0);
+  }
+}
+@keyframes a-rubic-11 {
+  0% {
+    transform: translateX(-49px) translateY(-49px) translateZ(0);
+  }
+  10% {
+    transform: translateX(-99px) translateY(-99px) translateZ(0);
+  }
+  50% {
+    transform: translateX(-99px) translateY(-99px) translateZ(0);
+  }
+  75% {
+    transform: translateX(-99px) translateY(-49px) translateZ(0);
+  }
+  100% {
+    transform: translateX(-49px) translateY(-49px) translateZ(0);
+  }
+}
+@keyframes a-rubic-18 {
+  0% {
+    transform: translateX(-49px) translateY(49px) translateZ(-49px);
+  }
+  10% {
+    transform: translateX(-99px) translateY(99px) translateZ(-99px);
+  }
+  50% {
+    transform: translateX(-99px) translateY(99px) translateZ(-49px);
+  }
+  75% {
+    transform: translateX(-99px) translateY(49px) translateZ(-49px);
+  }
+  100% {
+    transform: translateX(-49px) translateY(49px) translateZ(-49px);
+  }
+}
+@keyframes a-rubic-19 {
+  0% {
+    transform: translateX(-49px) translateY(0) translateZ(-49px);
+  }
+  10% {
+    transform: translateX(-99px) translateY(0) translateZ(-99px);
+  }
+  50% {
+    transform: translateX(-99px) translateY(0) translateZ(-49px);
+  }
+  75% {
+    transform: translateX(-99px) translateY(0) translateZ(-49px);
+  }
+  100% {
+    transform: translateX(-49px) translateY(0) translateZ(-49px);
+  }
+}
+@keyframes a-rubic-20 {
+  0% {
+    transform: translateX(-49px) translateY(-49px) translateZ(-49px);
+  }
+  10% {
+    transform: translateX(-99px) translateY(-99px) translateZ(-99px);
+  }
+  50% {
+    transform: translateX(-99px) translateY(-99px) translateZ(-49px);
+  }
+  75% {
+    transform: translateX(-99px) translateY(-49px) translateZ(-49px);
+  }
+  100% {
+    transform: translateX(-49px) translateY(-49px) translateZ(-49px);
+  }
+}
+@keyframes a-rubic-6 {
+  0% {
+    transform: translateX(49px) translateY(49px) translateZ(49px);
+  }
+  10% {
+    transform: translateX(99px) translateY(99px) translateZ(99px);
+  }
+  50% {
+    transform: translateX(99px) translateY(99px) translateZ(49px);
+  }
+  75% {
+    transform: translateX(99px) translateY(49px) translateZ(49px);
+  }
+  100% {
+    transform: translateX(49px) translateY(49px) translateZ(49px);
+  }
+}
+@keyframes a-rubic-7 {
+  0% {
+    transform: translateX(49px) translateY(0) translateZ(49px);
+  }
+  10% {
+    transform: translateX(99px) translateY(0) translateZ(99px);
+  }
+  50% {
+    transform: translateX(99px) translateY(0) translateZ(49px);
+  }
+  75% {
+    transform: translateX(99px) translateY(0) translateZ(49px);
+  }
+  100% {
+    transform: translateX(49px) translateY(0) translateZ(49px);
+  }
+}
+@keyframes a-rubic-8 {
+  0% {
+    transform: translateX(49px) translateY(-49px) translateZ(49px);
+  }
+  10% {
+    transform: translateX(99px) translateY(-99px) translateZ(99px);
+  }
+  50% {
+    transform: translateX(99px) translateY(-99px) translateZ(49px);
+  }
+  75% {
+    transform: translateX(99px) translateY(-49px) translateZ(49px);
+  }
+  100% {
+    transform: translateX(49px) translateY(-49px) translateZ(49px);
+  }
+}
+@keyframes a-rubic-15 {
+  0% {
+    transform: translateX(49px) translateY(49px) translateZ(0);
+  }
+  10% {
+    transform: translateX(99px) translateY(99px) translateZ(0);
+  }
+  50% {
+    transform: translateX(99px) translateY(99px) translateZ(0);
+  }
+  75% {
+    transform: translateX(99px) translateY(49px) translateZ(0);
+  }
+  100% {
+    transform: translateX(49px) translateY(49px) translateZ(0);
+  }
+}
+@keyframes a-rubic-16 {
+  0% {
+    transform: translateX(49px) translateY(0) translateZ(0);
+  }
+  10% {
+    transform: translateX(99px) translateY(0) translateZ(0);
+  }
+  50% {
+    transform: translateX(99px) translateY(0) translateZ(0);
+  }
+  75% {
+    transform: translateX(99px) translateY(0) translateZ(0);
+  }
+  100% {
+    transform: translateX(49px) translateY(0) translateZ(0);
+  }
+}
+@keyframes a-rubic-17 {
+  0% {
+    transform: translateX(49px) translateY(-49px) translateZ(0);
+  }
+  10% {
+    transform: translateX(99px) translateY(-99px) translateZ(0);
+  }
+  50% {
+    transform: translateX(99px) translateY(-99px) translateZ(0);
+  }
+  75% {
+    transform: translateX(99px) translateY(-49px) translateZ(0);
+  }
+  100% {
+    transform: translateX(49px) translateY(-49px) translateZ(0);
+  }
+}
+@keyframes a-rubic-24 {
+  0% {
+    transform: translateX(49px) translateY(49px) translateZ(-49px);
+  }
+  10% {
+    transform: translateX(99px) translateY(99px) translateZ(-99px);
+  }
+  50% {
+    transform: translateX(99px) translateY(99px) translateZ(-49px);
+  }
+  75% {
+    transform: translateX(99px) translateY(49px) translateZ(-49px);
+  }
+  100% {
+    transform: translateX(49px) translateY(49px) translateZ(-49px);
+  }
+}
+@keyframes a-rubic-25 {
+  0% {
+    transform: translateX(49px) translateY(0) translateZ(-49px);
+  }
+  10% {
+    transform: translateX(99px) translateY(0) translateZ(-99px);
+  }
+  50% {
+    transform: translateX(99px) translateY(0) translateZ(-49px);
+  }
+  75% {
+    transform: translateX(99px) translateY(0) translateZ(-49px);
+  }
+  100% {
+    transform: translateX(49px) translateY(0) translateZ(-49px);
+  }
+}
+@keyframes a-rubic-26 {
+  0% {
+    transform: translateX(49px) translateY(-49px) translateZ(-49px);
+  }
+  10% {
+    transform: translateX(99px) translateY(-99px) translateZ(-99px);
+  }
+  50% {
+    transform: translateX(99px) translateY(-99px) translateZ(-49px);
+  }
+  75% {
+    transform: translateX(99px) translateY(-49px) translateZ(-49px);
+  }
+  100% {
+    transform: translateX(49px) translateY(-49px) translateZ(-49px);
+  }
+}
+@keyframes a-rubic-21 {
+  0% {
+    transform: translateX(0) translateY(49px) translateZ(-49px);
+  }
+  10% {
+    transform: translateX(0) translateY(99px) translateZ(-99px);
+  }
+  50% {
+    transform: translateX(0) translateY(99px) translateZ(-49px);
+  }
+  75% {
+    transform: translateX(0) translateY(49px) translateZ(-49px);
+  }
+  100% {
+    transform: translateX(0) translateY(49px) translateZ(-49px);
+  }
+}
+@keyframes a-rubic-22 {
+  0% {
+    transform: translateX(0) translateY(0) translateZ(-49px);
+  }
+  10% {
+    transform: translateX(0) translateY(0) translateZ(-99px);
+  }
+  50% {
+    transform: translateX(0) translateY(0) translateZ(-49px);
+  }
+  75% {
+    transform: translateX(0) translateY(0) translateZ(-49px);
+  }
+  100% {
+    transform: translateX(0) translateY(0) translateZ(-49px);
+  }
+}
+@keyframes a-rubic-23 {
+  0% {
+    transform: translateX(0) translateY(-49px) translateZ(-49px);
+  }
+  10% {
+    transform: translateX(0) translateY(-99px) translateZ(-99px);
+  }
+  50% {
+    transform: translateX(0) translateY(-99px) translateZ(-49px);
+  }
+  75% {
+    transform: translateX(0) translateY(-49px) translateZ(-49px);
+  }
+  100% {
+    transform: translateX(0) translateY(-49px) translateZ(-49px);
+  }
+}
+@keyframes a-rubic-3 {
+  0% {
+    transform: translateX(0) translateY(49px) translateZ(49px);
+  }
+  10% {
+    transform: translateX(0) translateY(99px) translateZ(99px);
+  }
+  50% {
+    transform: translateX(0) translateY(99px) translateZ(49px);
+  }
+  75% {
+    transform: translateX(0) translateY(49px) translateZ(49px);
+  }
+  100% {
+    transform: translateX(0) translateY(49px) translateZ(49px);
+  }
+}
+@keyframes a-rubic-4 {
+  0% {
+    transform: translateX(0) translateY(0) translateZ(49px);
+  }
+  10% {
+    transform: translateX(0) translateY(0) translateZ(99px);
+  }
+  50% {
+    transform: translateX(0) translateY(0) translateZ(49px);
+  }
+  75% {
+    transform: translateX(0) translateY(0) translateZ(49px);
+  }
+  100% {
+    transform: translateX(0) translateY(0) translateZ(49px);
+  }
+}
+@keyframes a-rubic-5 {
+  0% {
+    transform: translateX(0) translateY(-49px) translateZ(49px);
+  }
+  10% {
+    transform: translateX(0) translateY(-99px) translateZ(99px);
+  }
+  50% {
+    transform: translateX(0) translateY(-99px) translateZ(49px);
+  }
+  75% {
+    transform: translateX(0) translateY(-49px) translateZ(49px);
+  }
+  100% {
+    transform: translateX(0) translateY(-49px) translateZ(49px);
+  }
+}
+@keyframes a-rubic-12 {
+  0% {
+    transform: translateX(0) translateY(49px) translateZ(0);
+  }
+  10% {
+    transform: translateX(0) translateY(99px) translateZ(0);
+  }
+  50% {
+    transform: translateX(0) translateY(99px) translateZ(0);
+  }
+  75% {
+    transform: translateX(0) translateY(49px) translateZ(0);
+  }
+  100% {
+    transform: translateX(0) translateY(49px) translateZ(0);
+  }
+}
+@keyframes a-rubic-14 {
+  0% {
+    transform: translateX(0) translateY(-49px) translateZ(0);
+  }
+  10% {
+    transform: translateX(0) translateY(-99px) translateZ(0);
+  }
+  50% {
+    transform: translateX(0) translateY(-99px) translateZ(0);
+  }
+  75% {
+    transform: translateX(0) translateY(-49px) translateZ(0);
+  }
+  100% {
+    transform: translateX(0) translateY(-49px) translateZ(0);
+  }
+}
+.stage3 .plane {
+  animation: a-plane-rotate 15s linear 0s infinite;
+  transform: rotateX(246deg) rotateZ(45deg);
+  transform-style: preserve-3d;
+  perspective: none;
+  transform-origin: 320px 320px;
+  position: absolute;
+  left: calc(50% - 320px);
+  top: calc(75% - 320px);
+}
+.stage3 .plane div {
+  transform-style: preserve-3d;
+  perspective: none;
+}
+.stage3 .plane .cube {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  transform: translateZ(50px);
+}
+.stage3 .plane .cube > div {
+  transition: 0.7s;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.stage3 .plane .left {
+  transform: rotateX(-180deg) rotateY(90deg);
+  transform-origin: left;
+  top: 0%;
+  right: 0%;
+}
+.stage3 .plane .right {
+  transform: rotateY(-90deg);
+  transform-origin: left;
+  left: 100%;
+}
+.stage3 .plane .back {
+  transform: rotateX(90deg) translate3d(0, 0, 0px);
+  transform-origin: top;
+  top: 0;
+  left: 0%;
+}
+.stage3 .plane .front {
+  transform: rotateX(90deg) rotateZ(0deg);
+  transform-origin: top;
+  top: 100%;
+  left: 0;
+}
+.stage3 .plane .top {
+  transform: rotateX(0deg) translateZ(0px);
+  transform-origin: top;
+  top: 0%;
+  left: 0%;
+}
+.stage3 .plane .row:nth-of-type(1) {
+  top: 0px;
+}
+.stage3 .plane .row:nth-of-type(1) .cube:nth-of-type(1) {
+  animation: a-cube-wave 2.3s ease-in-out calc(0*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(1) .cube:nth-of-type(1) div:not(.top) {
+  background-color: rgb(calc(130), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(1) .cube:nth-of-type(1) .top {
+  background-color: rgb(calc(135), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(1) .cube:nth-of-type(2) {
+  animation: a-cube-wave 2.3s ease-in-out calc(1*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(1) .cube:nth-of-type(2) div:not(.top) {
+  background-color: rgb(calc(116), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(1) .cube:nth-of-type(2) .top {
+  background-color: rgb(calc(175), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(1) .cube:nth-of-type(3) {
+  animation: a-cube-wave 2.3s ease-in-out calc(2*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(1) .cube:nth-of-type(3) div:not(.top) {
+  background-color: rgb(calc(142), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(1) .cube:nth-of-type(3) .top {
+  background-color: rgb(calc(203), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(1) .cube:nth-of-type(4) {
+  animation: a-cube-wave 2.3s ease-in-out calc(3*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(1) .cube:nth-of-type(4) div:not(.top) {
+  background-color: rgb(calc(103), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(1) .cube:nth-of-type(4) .top {
+  background-color: rgb(calc(142), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(1) .cube:nth-of-type(5) {
+  animation: a-cube-wave 2.3s ease-in-out calc(4*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(1) .cube:nth-of-type(5) div:not(.top) {
+  background-color: rgb(calc(105), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(1) .cube:nth-of-type(5) .top {
+  background-color: rgb(calc(232), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(1) .cube:nth-of-type(6) {
+  animation: a-cube-wave 2.3s ease-in-out calc(5*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(1) .cube:nth-of-type(6) div:not(.top) {
+  background-color: rgb(calc(158), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(1) .cube:nth-of-type(6) .top {
+  background-color: rgb(calc(144), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(1) .cube:nth-of-type(7) {
+  animation: a-cube-wave 2.3s ease-in-out calc(6*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(1) .cube:nth-of-type(7) div:not(.top) {
+  background-color: rgb(calc(141), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(1) .cube:nth-of-type(7) .top {
+  background-color: rgb(calc(172), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(1) .cube:nth-of-type(8) {
+  animation: a-cube-wave 2.3s ease-in-out calc(7*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(1) .cube:nth-of-type(8) div:not(.top) {
+  background-color: rgb(calc(68), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(1) .cube:nth-of-type(8) .top {
+  background-color: rgb(calc(142), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(1) .cube:nth-of-type(9) {
+  animation: a-cube-wave 2.3s ease-in-out calc(8*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(1) .cube:nth-of-type(9) div:not(.top) {
+  background-color: rgb(calc(99), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(1) .cube:nth-of-type(9) .top {
+  background-color: rgb(calc(129), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(1) .cube:nth-of-type(10) {
+  animation: a-cube-wave 2.3s ease-in-out calc(9*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(1) .cube:nth-of-type(10) div:not(.top) {
+  background-color: rgb(calc(156), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(1) .cube:nth-of-type(10) .top {
+  background-color: rgb(calc(167), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(1) .cube:nth-of-type(11) {
+  animation: a-cube-wave 2.3s ease-in-out calc(10*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(1) .cube:nth-of-type(11) div:not(.top) {
+  background-color: rgb(calc(144), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(1) .cube:nth-of-type(11) .top {
+  background-color: rgb(calc(139), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(1) .cube:nth-of-type(12) {
+  animation: a-cube-wave 2.3s ease-in-out calc(11*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(1) .cube:nth-of-type(12) div:not(.top) {
+  background-color: rgb(calc(119), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(1) .cube:nth-of-type(12) .top {
+  background-color: rgb(calc(214), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(1) .cube:nth-of-type(13) {
+  animation: a-cube-wave 2.3s ease-in-out calc(12*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(1) .cube:nth-of-type(13) div:not(.top) {
+  background-color: rgb(calc(143), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(1) .cube:nth-of-type(13) .top {
+  background-color: rgb(calc(146), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(1) .cube:nth-of-type(14) {
+  animation: a-cube-wave 2.3s ease-in-out calc(13*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(1) .cube:nth-of-type(14) div:not(.top) {
+  background-color: rgb(calc(173), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(1) .cube:nth-of-type(14) .top {
+  background-color: rgb(calc(121), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(1) .cube:nth-of-type(15) {
+  animation: a-cube-wave 2.3s ease-in-out calc(14*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(1) .cube:nth-of-type(15) div:not(.top) {
+  background-color: rgb(calc(118), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(1) .cube:nth-of-type(15) .top {
+  background-color: rgb(calc(209), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(1) .cube:nth-of-type(16) {
+  animation: a-cube-wave 2.3s ease-in-out calc(15*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(1) .cube:nth-of-type(16) div:not(.top) {
+  background-color: rgb(calc(115), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(1) .cube:nth-of-type(16) .top {
+  background-color: rgb(calc(192), 0, 255);
+}
+.stage3 .plane .cube:nth-of-type(1) {
+  left: 0px;
+}
+.stage3 .plane .row:nth-of-type(2) {
+  top: 40px;
+}
+.stage3 .plane .row:nth-of-type(2) .cube:nth-of-type(1) {
+  animation: a-cube-wave 2.3s ease-in-out calc(1*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(2) .cube:nth-of-type(1) div:not(.top) {
+  background-color: rgb(calc(104), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(2) .cube:nth-of-type(1) .top {
+  background-color: rgb(calc(219), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(2) .cube:nth-of-type(2) {
+  animation: a-cube-wave 2.3s ease-in-out calc(2*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(2) .cube:nth-of-type(2) div:not(.top) {
+  background-color: rgb(calc(102), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(2) .cube:nth-of-type(2) .top {
+  background-color: rgb(calc(150), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(2) .cube:nth-of-type(3) {
+  animation: a-cube-wave 2.3s ease-in-out calc(3*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(2) .cube:nth-of-type(3) div:not(.top) {
+  background-color: rgb(calc(75), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(2) .cube:nth-of-type(3) .top {
+  background-color: rgb(calc(172), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(2) .cube:nth-of-type(4) {
+  animation: a-cube-wave 2.3s ease-in-out calc(4*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(2) .cube:nth-of-type(4) div:not(.top) {
+  background-color: rgb(calc(186), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(2) .cube:nth-of-type(4) .top {
+  background-color: rgb(calc(127), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(2) .cube:nth-of-type(5) {
+  animation: a-cube-wave 2.3s ease-in-out calc(5*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(2) .cube:nth-of-type(5) div:not(.top) {
+  background-color: rgb(calc(105), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(2) .cube:nth-of-type(5) .top {
+  background-color: rgb(calc(196), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(2) .cube:nth-of-type(6) {
+  animation: a-cube-wave 2.3s ease-in-out calc(6*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(2) .cube:nth-of-type(6) div:not(.top) {
+  background-color: rgb(calc(123), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(2) .cube:nth-of-type(6) .top {
+  background-color: rgb(calc(241), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(2) .cube:nth-of-type(7) {
+  animation: a-cube-wave 2.3s ease-in-out calc(7*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(2) .cube:nth-of-type(7) div:not(.top) {
+  background-color: rgb(calc(198), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(2) .cube:nth-of-type(7) .top {
+  background-color: rgb(calc(124), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(2) .cube:nth-of-type(8) {
+  animation: a-cube-wave 2.3s ease-in-out calc(8*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(2) .cube:nth-of-type(8) div:not(.top) {
+  background-color: rgb(calc(111), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(2) .cube:nth-of-type(8) .top {
+  background-color: rgb(calc(248), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(2) .cube:nth-of-type(9) {
+  animation: a-cube-wave 2.3s ease-in-out calc(9*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(2) .cube:nth-of-type(9) div:not(.top) {
+  background-color: rgb(calc(82), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(2) .cube:nth-of-type(9) .top {
+  background-color: rgb(calc(105), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(2) .cube:nth-of-type(10) {
+  animation: a-cube-wave 2.3s ease-in-out calc(10*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(2) .cube:nth-of-type(10) div:not(.top) {
+  background-color: rgb(calc(68), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(2) .cube:nth-of-type(10) .top {
+  background-color: rgb(calc(164), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(2) .cube:nth-of-type(11) {
+  animation: a-cube-wave 2.3s ease-in-out calc(11*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(2) .cube:nth-of-type(11) div:not(.top) {
+  background-color: rgb(calc(181), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(2) .cube:nth-of-type(11) .top {
+  background-color: rgb(calc(101), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(2) .cube:nth-of-type(12) {
+  animation: a-cube-wave 2.3s ease-in-out calc(12*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(2) .cube:nth-of-type(12) div:not(.top) {
+  background-color: rgb(calc(51), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(2) .cube:nth-of-type(12) .top {
+  background-color: rgb(calc(118), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(2) .cube:nth-of-type(13) {
+  animation: a-cube-wave 2.3s ease-in-out calc(13*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(2) .cube:nth-of-type(13) div:not(.top) {
+  background-color: rgb(calc(182), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(2) .cube:nth-of-type(13) .top {
+  background-color: rgb(calc(153), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(2) .cube:nth-of-type(14) {
+  animation: a-cube-wave 2.3s ease-in-out calc(14*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(2) .cube:nth-of-type(14) div:not(.top) {
+  background-color: rgb(calc(53), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(2) .cube:nth-of-type(14) .top {
+  background-color: rgb(calc(207), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(2) .cube:nth-of-type(15) {
+  animation: a-cube-wave 2.3s ease-in-out calc(15*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(2) .cube:nth-of-type(15) div:not(.top) {
+  background-color: rgb(calc(104), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(2) .cube:nth-of-type(15) .top {
+  background-color: rgb(calc(117), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(2) .cube:nth-of-type(16) {
+  animation: a-cube-wave 2.3s ease-in-out calc(16*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(2) .cube:nth-of-type(16) div:not(.top) {
+  background-color: rgb(calc(69), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(2) .cube:nth-of-type(16) .top {
+  background-color: rgb(calc(188), 0, 255);
+}
+.stage3 .plane .cube:nth-of-type(2) {
+  left: 40px;
+}
+.stage3 .plane .row:nth-of-type(3) {
+  top: 80px;
+}
+.stage3 .plane .row:nth-of-type(3) .cube:nth-of-type(1) {
+  animation: a-cube-wave 2.3s ease-in-out calc(2*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(3) .cube:nth-of-type(1) div:not(.top) {
+  background-color: rgb(calc(55), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(3) .cube:nth-of-type(1) .top {
+  background-color: rgb(calc(117), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(3) .cube:nth-of-type(2) {
+  animation: a-cube-wave 2.3s ease-in-out calc(3*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(3) .cube:nth-of-type(2) div:not(.top) {
+  background-color: rgb(calc(194), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(3) .cube:nth-of-type(2) .top {
+  background-color: rgb(calc(199), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(3) .cube:nth-of-type(3) {
+  animation: a-cube-wave 2.3s ease-in-out calc(4*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(3) .cube:nth-of-type(3) div:not(.top) {
+  background-color: rgb(calc(149), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(3) .cube:nth-of-type(3) .top {
+  background-color: rgb(calc(172), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(3) .cube:nth-of-type(4) {
+  animation: a-cube-wave 2.3s ease-in-out calc(5*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(3) .cube:nth-of-type(4) div:not(.top) {
+  background-color: rgb(calc(146), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(3) .cube:nth-of-type(4) .top {
+  background-color: rgb(calc(241), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(3) .cube:nth-of-type(5) {
+  animation: a-cube-wave 2.3s ease-in-out calc(6*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(3) .cube:nth-of-type(5) div:not(.top) {
+  background-color: rgb(calc(66), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(3) .cube:nth-of-type(5) .top {
+  background-color: rgb(calc(125), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(3) .cube:nth-of-type(6) {
+  animation: a-cube-wave 2.3s ease-in-out calc(7*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(3) .cube:nth-of-type(6) div:not(.top) {
+  background-color: rgb(calc(183), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(3) .cube:nth-of-type(6) .top {
+  background-color: rgb(calc(140), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(3) .cube:nth-of-type(7) {
+  animation: a-cube-wave 2.3s ease-in-out calc(8*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(3) .cube:nth-of-type(7) div:not(.top) {
+  background-color: rgb(calc(58), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(3) .cube:nth-of-type(7) .top {
+  background-color: rgb(calc(108), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(3) .cube:nth-of-type(8) {
+  animation: a-cube-wave 2.3s ease-in-out calc(9*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(3) .cube:nth-of-type(8) div:not(.top) {
+  background-color: rgb(calc(152), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(3) .cube:nth-of-type(8) .top {
+  background-color: rgb(calc(205), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(3) .cube:nth-of-type(9) {
+  animation: a-cube-wave 2.3s ease-in-out calc(10*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(3) .cube:nth-of-type(9) div:not(.top) {
+  background-color: rgb(calc(171), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(3) .cube:nth-of-type(9) .top {
+  background-color: rgb(calc(225), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(3) .cube:nth-of-type(10) {
+  animation: a-cube-wave 2.3s ease-in-out calc(11*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(3) .cube:nth-of-type(10) div:not(.top) {
+  background-color: rgb(calc(98), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(3) .cube:nth-of-type(10) .top {
+  background-color: rgb(calc(163), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(3) .cube:nth-of-type(11) {
+  animation: a-cube-wave 2.3s ease-in-out calc(12*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(3) .cube:nth-of-type(11) div:not(.top) {
+  background-color: rgb(calc(158), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(3) .cube:nth-of-type(11) .top {
+  background-color: rgb(calc(109), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(3) .cube:nth-of-type(12) {
+  animation: a-cube-wave 2.3s ease-in-out calc(13*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(3) .cube:nth-of-type(12) div:not(.top) {
+  background-color: rgb(calc(95), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(3) .cube:nth-of-type(12) .top {
+  background-color: rgb(calc(104), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(3) .cube:nth-of-type(13) {
+  animation: a-cube-wave 2.3s ease-in-out calc(14*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(3) .cube:nth-of-type(13) div:not(.top) {
+  background-color: rgb(calc(123), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(3) .cube:nth-of-type(13) .top {
+  background-color: rgb(calc(105), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(3) .cube:nth-of-type(14) {
+  animation: a-cube-wave 2.3s ease-in-out calc(15*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(3) .cube:nth-of-type(14) div:not(.top) {
+  background-color: rgb(calc(194), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(3) .cube:nth-of-type(14) .top {
+  background-color: rgb(calc(141), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(3) .cube:nth-of-type(15) {
+  animation: a-cube-wave 2.3s ease-in-out calc(16*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(3) .cube:nth-of-type(15) div:not(.top) {
+  background-color: rgb(calc(183), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(3) .cube:nth-of-type(15) .top {
+  background-color: rgb(calc(158), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(3) .cube:nth-of-type(16) {
+  animation: a-cube-wave 2.3s ease-in-out calc(17*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(3) .cube:nth-of-type(16) div:not(.top) {
+  background-color: rgb(calc(88), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(3) .cube:nth-of-type(16) .top {
+  background-color: rgb(calc(213), 0, 255);
+}
+.stage3 .plane .cube:nth-of-type(3) {
+  left: 80px;
+}
+.stage3 .plane .row:nth-of-type(4) {
+  top: 120px;
+}
+.stage3 .plane .row:nth-of-type(4) .cube:nth-of-type(1) {
+  animation: a-cube-wave 2.3s ease-in-out calc(3*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(4) .cube:nth-of-type(1) div:not(.top) {
+  background-color: rgb(calc(150), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(4) .cube:nth-of-type(1) .top {
+  background-color: rgb(calc(128), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(4) .cube:nth-of-type(2) {
+  animation: a-cube-wave 2.3s ease-in-out calc(4*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(4) .cube:nth-of-type(2) div:not(.top) {
+  background-color: rgb(calc(72), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(4) .cube:nth-of-type(2) .top {
+  background-color: rgb(calc(175), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(4) .cube:nth-of-type(3) {
+  animation: a-cube-wave 2.3s ease-in-out calc(5*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(4) .cube:nth-of-type(3) div:not(.top) {
+  background-color: rgb(calc(141), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(4) .cube:nth-of-type(3) .top {
+  background-color: rgb(calc(226), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(4) .cube:nth-of-type(4) {
+  animation: a-cube-wave 2.3s ease-in-out calc(6*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(4) .cube:nth-of-type(4) div:not(.top) {
+  background-color: rgb(calc(153), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(4) .cube:nth-of-type(4) .top {
+  background-color: rgb(calc(203), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(4) .cube:nth-of-type(5) {
+  animation: a-cube-wave 2.3s ease-in-out calc(7*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(4) .cube:nth-of-type(5) div:not(.top) {
+  background-color: rgb(calc(118), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(4) .cube:nth-of-type(5) .top {
+  background-color: rgb(calc(168), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(4) .cube:nth-of-type(6) {
+  animation: a-cube-wave 2.3s ease-in-out calc(8*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(4) .cube:nth-of-type(6) div:not(.top) {
+  background-color: rgb(calc(143), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(4) .cube:nth-of-type(6) .top {
+  background-color: rgb(calc(132), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(4) .cube:nth-of-type(7) {
+  animation: a-cube-wave 2.3s ease-in-out calc(9*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(4) .cube:nth-of-type(7) div:not(.top) {
+  background-color: rgb(calc(63), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(4) .cube:nth-of-type(7) .top {
+  background-color: rgb(calc(249), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(4) .cube:nth-of-type(8) {
+  animation: a-cube-wave 2.3s ease-in-out calc(10*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(4) .cube:nth-of-type(8) div:not(.top) {
+  background-color: rgb(calc(105), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(4) .cube:nth-of-type(8) .top {
+  background-color: rgb(calc(205), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(4) .cube:nth-of-type(9) {
+  animation: a-cube-wave 2.3s ease-in-out calc(11*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(4) .cube:nth-of-type(9) div:not(.top) {
+  background-color: rgb(calc(51), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(4) .cube:nth-of-type(9) .top {
+  background-color: rgb(calc(189), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(4) .cube:nth-of-type(10) {
+  animation: a-cube-wave 2.3s ease-in-out calc(12*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(4) .cube:nth-of-type(10) div:not(.top) {
+  background-color: rgb(calc(201), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(4) .cube:nth-of-type(10) .top {
+  background-color: rgb(calc(225), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(4) .cube:nth-of-type(11) {
+  animation: a-cube-wave 2.3s ease-in-out calc(13*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(4) .cube:nth-of-type(11) div:not(.top) {
+  background-color: rgb(calc(119), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(4) .cube:nth-of-type(11) .top {
+  background-color: rgb(calc(170), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(4) .cube:nth-of-type(12) {
+  animation: a-cube-wave 2.3s ease-in-out calc(14*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(4) .cube:nth-of-type(12) div:not(.top) {
+  background-color: rgb(calc(58), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(4) .cube:nth-of-type(12) .top {
+  background-color: rgb(calc(106), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(4) .cube:nth-of-type(13) {
+  animation: a-cube-wave 2.3s ease-in-out calc(15*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(4) .cube:nth-of-type(13) div:not(.top) {
+  background-color: rgb(calc(164), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(4) .cube:nth-of-type(13) .top {
+  background-color: rgb(calc(203), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(4) .cube:nth-of-type(14) {
+  animation: a-cube-wave 2.3s ease-in-out calc(16*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(4) .cube:nth-of-type(14) div:not(.top) {
+  background-color: rgb(calc(182), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(4) .cube:nth-of-type(14) .top {
+  background-color: rgb(calc(200), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(4) .cube:nth-of-type(15) {
+  animation: a-cube-wave 2.3s ease-in-out calc(17*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(4) .cube:nth-of-type(15) div:not(.top) {
+  background-color: rgb(calc(145), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(4) .cube:nth-of-type(15) .top {
+  background-color: rgb(calc(159), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(4) .cube:nth-of-type(16) {
+  animation: a-cube-wave 2.3s ease-in-out calc(18*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(4) .cube:nth-of-type(16) div:not(.top) {
+  background-color: rgb(calc(195), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(4) .cube:nth-of-type(16) .top {
+  background-color: rgb(calc(229), 0, 255);
+}
+.stage3 .plane .cube:nth-of-type(4) {
+  left: 120px;
+}
+.stage3 .plane .row:nth-of-type(5) {
+  top: 160px;
+}
+.stage3 .plane .row:nth-of-type(5) .cube:nth-of-type(1) {
+  animation: a-cube-wave 2.3s ease-in-out calc(4*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(5) .cube:nth-of-type(1) div:not(.top) {
+  background-color: rgb(calc(129), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(5) .cube:nth-of-type(1) .top {
+  background-color: rgb(calc(202), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(5) .cube:nth-of-type(2) {
+  animation: a-cube-wave 2.3s ease-in-out calc(5*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(5) .cube:nth-of-type(2) div:not(.top) {
+  background-color: rgb(calc(81), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(5) .cube:nth-of-type(2) .top {
+  background-color: rgb(calc(178), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(5) .cube:nth-of-type(3) {
+  animation: a-cube-wave 2.3s ease-in-out calc(6*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(5) .cube:nth-of-type(3) div:not(.top) {
+  background-color: rgb(calc(82), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(5) .cube:nth-of-type(3) .top {
+  background-color: rgb(calc(170), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(5) .cube:nth-of-type(4) {
+  animation: a-cube-wave 2.3s ease-in-out calc(7*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(5) .cube:nth-of-type(4) div:not(.top) {
+  background-color: rgb(calc(143), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(5) .cube:nth-of-type(4) .top {
+  background-color: rgb(calc(249), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(5) .cube:nth-of-type(5) {
+  animation: a-cube-wave 2.3s ease-in-out calc(8*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(5) .cube:nth-of-type(5) div:not(.top) {
+  background-color: rgb(calc(155), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(5) .cube:nth-of-type(5) .top {
+  background-color: rgb(calc(239), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(5) .cube:nth-of-type(6) {
+  animation: a-cube-wave 2.3s ease-in-out calc(9*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(5) .cube:nth-of-type(6) div:not(.top) {
+  background-color: rgb(calc(119), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(5) .cube:nth-of-type(6) .top {
+  background-color: rgb(calc(241), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(5) .cube:nth-of-type(7) {
+  animation: a-cube-wave 2.3s ease-in-out calc(10*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(5) .cube:nth-of-type(7) div:not(.top) {
+  background-color: rgb(calc(188), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(5) .cube:nth-of-type(7) .top {
+  background-color: rgb(calc(141), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(5) .cube:nth-of-type(8) {
+  animation: a-cube-wave 2.3s ease-in-out calc(11*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(5) .cube:nth-of-type(8) div:not(.top) {
+  background-color: rgb(calc(109), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(5) .cube:nth-of-type(8) .top {
+  background-color: rgb(calc(239), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(5) .cube:nth-of-type(9) {
+  animation: a-cube-wave 2.3s ease-in-out calc(12*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(5) .cube:nth-of-type(9) div:not(.top) {
+  background-color: rgb(calc(195), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(5) .cube:nth-of-type(9) .top {
+  background-color: rgb(calc(104), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(5) .cube:nth-of-type(10) {
+  animation: a-cube-wave 2.3s ease-in-out calc(13*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(5) .cube:nth-of-type(10) div:not(.top) {
+  background-color: rgb(calc(113), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(5) .cube:nth-of-type(10) .top {
+  background-color: rgb(calc(157), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(5) .cube:nth-of-type(11) {
+  animation: a-cube-wave 2.3s ease-in-out calc(14*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(5) .cube:nth-of-type(11) div:not(.top) {
+  background-color: rgb(calc(89), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(5) .cube:nth-of-type(11) .top {
+  background-color: rgb(calc(175), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(5) .cube:nth-of-type(12) {
+  animation: a-cube-wave 2.3s ease-in-out calc(15*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(5) .cube:nth-of-type(12) div:not(.top) {
+  background-color: rgb(calc(147), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(5) .cube:nth-of-type(12) .top {
+  background-color: rgb(calc(109), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(5) .cube:nth-of-type(13) {
+  animation: a-cube-wave 2.3s ease-in-out calc(16*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(5) .cube:nth-of-type(13) div:not(.top) {
+  background-color: rgb(calc(65), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(5) .cube:nth-of-type(13) .top {
+  background-color: rgb(calc(243), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(5) .cube:nth-of-type(14) {
+  animation: a-cube-wave 2.3s ease-in-out calc(17*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(5) .cube:nth-of-type(14) div:not(.top) {
+  background-color: rgb(calc(163), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(5) .cube:nth-of-type(14) .top {
+  background-color: rgb(calc(203), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(5) .cube:nth-of-type(15) {
+  animation: a-cube-wave 2.3s ease-in-out calc(18*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(5) .cube:nth-of-type(15) div:not(.top) {
+  background-color: rgb(calc(200), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(5) .cube:nth-of-type(15) .top {
+  background-color: rgb(calc(163), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(5) .cube:nth-of-type(16) {
+  animation: a-cube-wave 2.3s ease-in-out calc(19*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(5) .cube:nth-of-type(16) div:not(.top) {
+  background-color: rgb(calc(135), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(5) .cube:nth-of-type(16) .top {
+  background-color: rgb(calc(203), 0, 255);
+}
+.stage3 .plane .cube:nth-of-type(5) {
+  left: 160px;
+}
+.stage3 .plane .row:nth-of-type(6) {
+  top: 200px;
+}
+.stage3 .plane .row:nth-of-type(6) .cube:nth-of-type(1) {
+  animation: a-cube-wave 2.3s ease-in-out calc(5*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(6) .cube:nth-of-type(1) div:not(.top) {
+  background-color: rgb(calc(123), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(6) .cube:nth-of-type(1) .top {
+  background-color: rgb(calc(164), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(6) .cube:nth-of-type(2) {
+  animation: a-cube-wave 2.3s ease-in-out calc(6*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(6) .cube:nth-of-type(2) div:not(.top) {
+  background-color: rgb(calc(155), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(6) .cube:nth-of-type(2) .top {
+  background-color: rgb(calc(247), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(6) .cube:nth-of-type(3) {
+  animation: a-cube-wave 2.3s ease-in-out calc(7*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(6) .cube:nth-of-type(3) div:not(.top) {
+  background-color: rgb(calc(146), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(6) .cube:nth-of-type(3) .top {
+  background-color: rgb(calc(175), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(6) .cube:nth-of-type(4) {
+  animation: a-cube-wave 2.3s ease-in-out calc(8*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(6) .cube:nth-of-type(4) div:not(.top) {
+  background-color: rgb(calc(116), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(6) .cube:nth-of-type(4) .top {
+  background-color: rgb(calc(240), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(6) .cube:nth-of-type(5) {
+  animation: a-cube-wave 2.3s ease-in-out calc(9*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(6) .cube:nth-of-type(5) div:not(.top) {
+  background-color: rgb(calc(139), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(6) .cube:nth-of-type(5) .top {
+  background-color: rgb(calc(233), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(6) .cube:nth-of-type(6) {
+  animation: a-cube-wave 2.3s ease-in-out calc(10*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(6) .cube:nth-of-type(6) div:not(.top) {
+  background-color: rgb(calc(54), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(6) .cube:nth-of-type(6) .top {
+  background-color: rgb(calc(246), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(6) .cube:nth-of-type(7) {
+  animation: a-cube-wave 2.3s ease-in-out calc(11*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(6) .cube:nth-of-type(7) div:not(.top) {
+  background-color: rgb(calc(133), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(6) .cube:nth-of-type(7) .top {
+  background-color: rgb(calc(204), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(6) .cube:nth-of-type(8) {
+  animation: a-cube-wave 2.3s ease-in-out calc(12*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(6) .cube:nth-of-type(8) div:not(.top) {
+  background-color: rgb(calc(135), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(6) .cube:nth-of-type(8) .top {
+  background-color: rgb(calc(104), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(6) .cube:nth-of-type(9) {
+  animation: a-cube-wave 2.3s ease-in-out calc(13*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(6) .cube:nth-of-type(9) div:not(.top) {
+  background-color: rgb(calc(83), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(6) .cube:nth-of-type(9) .top {
+  background-color: rgb(calc(214), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(6) .cube:nth-of-type(10) {
+  animation: a-cube-wave 2.3s ease-in-out calc(14*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(6) .cube:nth-of-type(10) div:not(.top) {
+  background-color: rgb(calc(155), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(6) .cube:nth-of-type(10) .top {
+  background-color: rgb(calc(255), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(6) .cube:nth-of-type(11) {
+  animation: a-cube-wave 2.3s ease-in-out calc(15*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(6) .cube:nth-of-type(11) div:not(.top) {
+  background-color: rgb(calc(190), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(6) .cube:nth-of-type(11) .top {
+  background-color: rgb(calc(242), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(6) .cube:nth-of-type(12) {
+  animation: a-cube-wave 2.3s ease-in-out calc(16*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(6) .cube:nth-of-type(12) div:not(.top) {
+  background-color: rgb(calc(169), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(6) .cube:nth-of-type(12) .top {
+  background-color: rgb(calc(185), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(6) .cube:nth-of-type(13) {
+  animation: a-cube-wave 2.3s ease-in-out calc(17*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(6) .cube:nth-of-type(13) div:not(.top) {
+  background-color: rgb(calc(197), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(6) .cube:nth-of-type(13) .top {
+  background-color: rgb(calc(246), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(6) .cube:nth-of-type(14) {
+  animation: a-cube-wave 2.3s ease-in-out calc(18*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(6) .cube:nth-of-type(14) div:not(.top) {
+  background-color: rgb(calc(139), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(6) .cube:nth-of-type(14) .top {
+  background-color: rgb(calc(112), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(6) .cube:nth-of-type(15) {
+  animation: a-cube-wave 2.3s ease-in-out calc(19*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(6) .cube:nth-of-type(15) div:not(.top) {
+  background-color: rgb(calc(196), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(6) .cube:nth-of-type(15) .top {
+  background-color: rgb(calc(155), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(6) .cube:nth-of-type(16) {
+  animation: a-cube-wave 2.3s ease-in-out calc(20*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(6) .cube:nth-of-type(16) div:not(.top) {
+  background-color: rgb(calc(183), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(6) .cube:nth-of-type(16) .top {
+  background-color: rgb(calc(179), 0, 255);
+}
+.stage3 .plane .cube:nth-of-type(6) {
+  left: 200px;
+}
+.stage3 .plane .row:nth-of-type(7) {
+  top: 240px;
+}
+.stage3 .plane .row:nth-of-type(7) .cube:nth-of-type(1) {
+  animation: a-cube-wave 2.3s ease-in-out calc(6*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(7) .cube:nth-of-type(1) div:not(.top) {
+  background-color: rgb(calc(89), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(7) .cube:nth-of-type(1) .top {
+  background-color: rgb(calc(230), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(7) .cube:nth-of-type(2) {
+  animation: a-cube-wave 2.3s ease-in-out calc(7*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(7) .cube:nth-of-type(2) div:not(.top) {
+  background-color: rgb(calc(181), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(7) .cube:nth-of-type(2) .top {
+  background-color: rgb(calc(159), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(7) .cube:nth-of-type(3) {
+  animation: a-cube-wave 2.3s ease-in-out calc(8*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(7) .cube:nth-of-type(3) div:not(.top) {
+  background-color: rgb(calc(128), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(7) .cube:nth-of-type(3) .top {
+  background-color: rgb(calc(249), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(7) .cube:nth-of-type(4) {
+  animation: a-cube-wave 2.3s ease-in-out calc(9*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(7) .cube:nth-of-type(4) div:not(.top) {
+  background-color: rgb(calc(55), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(7) .cube:nth-of-type(4) .top {
+  background-color: rgb(calc(119), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(7) .cube:nth-of-type(5) {
+  animation: a-cube-wave 2.3s ease-in-out calc(10*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(7) .cube:nth-of-type(5) div:not(.top) {
+  background-color: rgb(calc(184), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(7) .cube:nth-of-type(5) .top {
+  background-color: rgb(calc(163), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(7) .cube:nth-of-type(6) {
+  animation: a-cube-wave 2.3s ease-in-out calc(11*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(7) .cube:nth-of-type(6) div:not(.top) {
+  background-color: rgb(calc(161), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(7) .cube:nth-of-type(6) .top {
+  background-color: rgb(calc(227), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(7) .cube:nth-of-type(7) {
+  animation: a-cube-wave 2.3s ease-in-out calc(12*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(7) .cube:nth-of-type(7) div:not(.top) {
+  background-color: rgb(calc(109), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(7) .cube:nth-of-type(7) .top {
+  background-color: rgb(calc(182), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(7) .cube:nth-of-type(8) {
+  animation: a-cube-wave 2.3s ease-in-out calc(13*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(7) .cube:nth-of-type(8) div:not(.top) {
+  background-color: rgb(calc(73), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(7) .cube:nth-of-type(8) .top {
+  background-color: rgb(calc(216), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(7) .cube:nth-of-type(9) {
+  animation: a-cube-wave 2.3s ease-in-out calc(14*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(7) .cube:nth-of-type(9) div:not(.top) {
+  background-color: rgb(calc(90), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(7) .cube:nth-of-type(9) .top {
+  background-color: rgb(calc(138), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(7) .cube:nth-of-type(10) {
+  animation: a-cube-wave 2.3s ease-in-out calc(15*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(7) .cube:nth-of-type(10) div:not(.top) {
+  background-color: rgb(calc(136), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(7) .cube:nth-of-type(10) .top {
+  background-color: rgb(calc(215), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(7) .cube:nth-of-type(11) {
+  animation: a-cube-wave 2.3s ease-in-out calc(16*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(7) .cube:nth-of-type(11) div:not(.top) {
+  background-color: rgb(calc(141), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(7) .cube:nth-of-type(11) .top {
+  background-color: rgb(calc(159), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(7) .cube:nth-of-type(12) {
+  animation: a-cube-wave 2.3s ease-in-out calc(17*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(7) .cube:nth-of-type(12) div:not(.top) {
+  background-color: rgb(calc(204), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(7) .cube:nth-of-type(12) .top {
+  background-color: rgb(calc(187), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(7) .cube:nth-of-type(13) {
+  animation: a-cube-wave 2.3s ease-in-out calc(18*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(7) .cube:nth-of-type(13) div:not(.top) {
+  background-color: rgb(calc(68), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(7) .cube:nth-of-type(13) .top {
+  background-color: rgb(calc(211), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(7) .cube:nth-of-type(14) {
+  animation: a-cube-wave 2.3s ease-in-out calc(19*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(7) .cube:nth-of-type(14) div:not(.top) {
+  background-color: rgb(calc(174), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(7) .cube:nth-of-type(14) .top {
+  background-color: rgb(calc(200), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(7) .cube:nth-of-type(15) {
+  animation: a-cube-wave 2.3s ease-in-out calc(20*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(7) .cube:nth-of-type(15) div:not(.top) {
+  background-color: rgb(calc(186), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(7) .cube:nth-of-type(15) .top {
+  background-color: rgb(calc(178), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(7) .cube:nth-of-type(16) {
+  animation: a-cube-wave 2.3s ease-in-out calc(21*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(7) .cube:nth-of-type(16) div:not(.top) {
+  background-color: rgb(calc(100), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(7) .cube:nth-of-type(16) .top {
+  background-color: rgb(calc(135), 0, 255);
+}
+.stage3 .plane .cube:nth-of-type(7) {
+  left: 240px;
+}
+.stage3 .plane .row:nth-of-type(8) {
+  top: 280px;
+}
+.stage3 .plane .row:nth-of-type(8) .cube:nth-of-type(1) {
+  animation: a-cube-wave 2.3s ease-in-out calc(7*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(8) .cube:nth-of-type(1) div:not(.top) {
+  background-color: rgb(calc(80), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(8) .cube:nth-of-type(1) .top {
+  background-color: rgb(calc(231), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(8) .cube:nth-of-type(2) {
+  animation: a-cube-wave 2.3s ease-in-out calc(8*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(8) .cube:nth-of-type(2) div:not(.top) {
+  background-color: rgb(calc(66), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(8) .cube:nth-of-type(2) .top {
+  background-color: rgb(calc(153), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(8) .cube:nth-of-type(3) {
+  animation: a-cube-wave 2.3s ease-in-out calc(9*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(8) .cube:nth-of-type(3) div:not(.top) {
+  background-color: rgb(calc(105), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(8) .cube:nth-of-type(3) .top {
+  background-color: rgb(calc(194), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(8) .cube:nth-of-type(4) {
+  animation: a-cube-wave 2.3s ease-in-out calc(10*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(8) .cube:nth-of-type(4) div:not(.top) {
+  background-color: rgb(calc(51), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(8) .cube:nth-of-type(4) .top {
+  background-color: rgb(calc(198), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(8) .cube:nth-of-type(5) {
+  animation: a-cube-wave 2.3s ease-in-out calc(11*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(8) .cube:nth-of-type(5) div:not(.top) {
+  background-color: rgb(calc(190), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(8) .cube:nth-of-type(5) .top {
+  background-color: rgb(calc(184), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(8) .cube:nth-of-type(6) {
+  animation: a-cube-wave 2.3s ease-in-out calc(12*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(8) .cube:nth-of-type(6) div:not(.top) {
+  background-color: rgb(calc(168), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(8) .cube:nth-of-type(6) .top {
+  background-color: rgb(calc(175), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(8) .cube:nth-of-type(7) {
+  animation: a-cube-wave 2.3s ease-in-out calc(13*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(8) .cube:nth-of-type(7) div:not(.top) {
+  background-color: rgb(calc(169), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(8) .cube:nth-of-type(7) .top {
+  background-color: rgb(calc(215), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(8) .cube:nth-of-type(8) {
+  animation: a-cube-wave 2.3s ease-in-out calc(14*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(8) .cube:nth-of-type(8) div:not(.top) {
+  background-color: rgb(calc(139), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(8) .cube:nth-of-type(8) .top {
+  background-color: rgb(calc(145), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(8) .cube:nth-of-type(9) {
+  animation: a-cube-wave 2.3s ease-in-out calc(15*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(8) .cube:nth-of-type(9) div:not(.top) {
+  background-color: rgb(calc(193), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(8) .cube:nth-of-type(9) .top {
+  background-color: rgb(calc(245), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(8) .cube:nth-of-type(10) {
+  animation: a-cube-wave 2.3s ease-in-out calc(16*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(8) .cube:nth-of-type(10) div:not(.top) {
+  background-color: rgb(calc(76), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(8) .cube:nth-of-type(10) .top {
+  background-color: rgb(calc(163), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(8) .cube:nth-of-type(11) {
+  animation: a-cube-wave 2.3s ease-in-out calc(17*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(8) .cube:nth-of-type(11) div:not(.top) {
+  background-color: rgb(calc(172), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(8) .cube:nth-of-type(11) .top {
+  background-color: rgb(calc(213), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(8) .cube:nth-of-type(12) {
+  animation: a-cube-wave 2.3s ease-in-out calc(18*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(8) .cube:nth-of-type(12) div:not(.top) {
+  background-color: rgb(calc(95), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(8) .cube:nth-of-type(12) .top {
+  background-color: rgb(calc(183), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(8) .cube:nth-of-type(13) {
+  animation: a-cube-wave 2.3s ease-in-out calc(19*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(8) .cube:nth-of-type(13) div:not(.top) {
+  background-color: rgb(calc(199), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(8) .cube:nth-of-type(13) .top {
+  background-color: rgb(calc(206), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(8) .cube:nth-of-type(14) {
+  animation: a-cube-wave 2.3s ease-in-out calc(20*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(8) .cube:nth-of-type(14) div:not(.top) {
+  background-color: rgb(calc(127), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(8) .cube:nth-of-type(14) .top {
+  background-color: rgb(calc(220), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(8) .cube:nth-of-type(15) {
+  animation: a-cube-wave 2.3s ease-in-out calc(21*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(8) .cube:nth-of-type(15) div:not(.top) {
+  background-color: rgb(calc(74), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(8) .cube:nth-of-type(15) .top {
+  background-color: rgb(calc(209), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(8) .cube:nth-of-type(16) {
+  animation: a-cube-wave 2.3s ease-in-out calc(22*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(8) .cube:nth-of-type(16) div:not(.top) {
+  background-color: rgb(calc(182), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(8) .cube:nth-of-type(16) .top {
+  background-color: rgb(calc(175), 0, 255);
+}
+.stage3 .plane .cube:nth-of-type(8) {
+  left: 280px;
+}
+.stage3 .plane .row:nth-of-type(9) {
+  top: 320px;
+}
+.stage3 .plane .row:nth-of-type(9) .cube:nth-of-type(1) {
+  animation: a-cube-wave 2.3s ease-in-out calc(8*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(9) .cube:nth-of-type(1) div:not(.top) {
+  background-color: rgb(calc(149), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(9) .cube:nth-of-type(1) .top {
+  background-color: rgb(calc(131), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(9) .cube:nth-of-type(2) {
+  animation: a-cube-wave 2.3s ease-in-out calc(9*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(9) .cube:nth-of-type(2) div:not(.top) {
+  background-color: rgb(calc(91), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(9) .cube:nth-of-type(2) .top {
+  background-color: rgb(calc(136), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(9) .cube:nth-of-type(3) {
+  animation: a-cube-wave 2.3s ease-in-out calc(10*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(9) .cube:nth-of-type(3) div:not(.top) {
+  background-color: rgb(calc(55), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(9) .cube:nth-of-type(3) .top {
+  background-color: rgb(calc(113), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(9) .cube:nth-of-type(4) {
+  animation: a-cube-wave 2.3s ease-in-out calc(11*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(9) .cube:nth-of-type(4) div:not(.top) {
+  background-color: rgb(calc(59), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(9) .cube:nth-of-type(4) .top {
+  background-color: rgb(calc(175), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(9) .cube:nth-of-type(5) {
+  animation: a-cube-wave 2.3s ease-in-out calc(12*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(9) .cube:nth-of-type(5) div:not(.top) {
+  background-color: rgb(calc(73), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(9) .cube:nth-of-type(5) .top {
+  background-color: rgb(calc(228), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(9) .cube:nth-of-type(6) {
+  animation: a-cube-wave 2.3s ease-in-out calc(13*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(9) .cube:nth-of-type(6) div:not(.top) {
+  background-color: rgb(calc(114), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(9) .cube:nth-of-type(6) .top {
+  background-color: rgb(calc(211), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(9) .cube:nth-of-type(7) {
+  animation: a-cube-wave 2.3s ease-in-out calc(14*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(9) .cube:nth-of-type(7) div:not(.top) {
+  background-color: rgb(calc(68), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(9) .cube:nth-of-type(7) .top {
+  background-color: rgb(calc(164), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(9) .cube:nth-of-type(8) {
+  animation: a-cube-wave 2.3s ease-in-out calc(15*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(9) .cube:nth-of-type(8) div:not(.top) {
+  background-color: rgb(calc(204), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(9) .cube:nth-of-type(8) .top {
+  background-color: rgb(calc(101), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(9) .cube:nth-of-type(9) {
+  animation: a-cube-wave 2.3s ease-in-out calc(16*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(9) .cube:nth-of-type(9) div:not(.top) {
+  background-color: rgb(calc(127), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(9) .cube:nth-of-type(9) .top {
+  background-color: rgb(calc(185), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(9) .cube:nth-of-type(10) {
+  animation: a-cube-wave 2.3s ease-in-out calc(17*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(9) .cube:nth-of-type(10) div:not(.top) {
+  background-color: rgb(calc(64), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(9) .cube:nth-of-type(10) .top {
+  background-color: rgb(calc(174), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(9) .cube:nth-of-type(11) {
+  animation: a-cube-wave 2.3s ease-in-out calc(18*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(9) .cube:nth-of-type(11) div:not(.top) {
+  background-color: rgb(calc(70), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(9) .cube:nth-of-type(11) .top {
+  background-color: rgb(calc(145), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(9) .cube:nth-of-type(12) {
+  animation: a-cube-wave 2.3s ease-in-out calc(19*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(9) .cube:nth-of-type(12) div:not(.top) {
+  background-color: rgb(calc(107), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(9) .cube:nth-of-type(12) .top {
+  background-color: rgb(calc(218), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(9) .cube:nth-of-type(13) {
+  animation: a-cube-wave 2.3s ease-in-out calc(20*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(9) .cube:nth-of-type(13) div:not(.top) {
+  background-color: rgb(calc(188), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(9) .cube:nth-of-type(13) .top {
+  background-color: rgb(calc(101), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(9) .cube:nth-of-type(14) {
+  animation: a-cube-wave 2.3s ease-in-out calc(21*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(9) .cube:nth-of-type(14) div:not(.top) {
+  background-color: rgb(calc(164), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(9) .cube:nth-of-type(14) .top {
+  background-color: rgb(calc(116), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(9) .cube:nth-of-type(15) {
+  animation: a-cube-wave 2.3s ease-in-out calc(22*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(9) .cube:nth-of-type(15) div:not(.top) {
+  background-color: rgb(calc(163), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(9) .cube:nth-of-type(15) .top {
+  background-color: rgb(calc(222), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(9) .cube:nth-of-type(16) {
+  animation: a-cube-wave 2.3s ease-in-out calc(23*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(9) .cube:nth-of-type(16) div:not(.top) {
+  background-color: rgb(calc(133), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(9) .cube:nth-of-type(16) .top {
+  background-color: rgb(calc(106), 0, 255);
+}
+.stage3 .plane .cube:nth-of-type(9) {
+  left: 320px;
+}
+.stage3 .plane .row:nth-of-type(10) {
+  top: 360px;
+}
+.stage3 .plane .row:nth-of-type(10) .cube:nth-of-type(1) {
+  animation: a-cube-wave 2.3s ease-in-out calc(9*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(10) .cube:nth-of-type(1) div:not(.top) {
+  background-color: rgb(calc(136), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(10) .cube:nth-of-type(1) .top {
+  background-color: rgb(calc(140), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(10) .cube:nth-of-type(2) {
+  animation: a-cube-wave 2.3s ease-in-out calc(10*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(10) .cube:nth-of-type(2) div:not(.top) {
+  background-color: rgb(calc(137), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(10) .cube:nth-of-type(2) .top {
+  background-color: rgb(calc(240), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(10) .cube:nth-of-type(3) {
+  animation: a-cube-wave 2.3s ease-in-out calc(11*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(10) .cube:nth-of-type(3) div:not(.top) {
+  background-color: rgb(calc(147), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(10) .cube:nth-of-type(3) .top {
+  background-color: rgb(calc(171), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(10) .cube:nth-of-type(4) {
+  animation: a-cube-wave 2.3s ease-in-out calc(12*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(10) .cube:nth-of-type(4) div:not(.top) {
+  background-color: rgb(calc(159), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(10) .cube:nth-of-type(4) .top {
+  background-color: rgb(calc(140), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(10) .cube:nth-of-type(5) {
+  animation: a-cube-wave 2.3s ease-in-out calc(13*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(10) .cube:nth-of-type(5) div:not(.top) {
+  background-color: rgb(calc(127), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(10) .cube:nth-of-type(5) .top {
+  background-color: rgb(calc(122), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(10) .cube:nth-of-type(6) {
+  animation: a-cube-wave 2.3s ease-in-out calc(14*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(10) .cube:nth-of-type(6) div:not(.top) {
+  background-color: rgb(calc(146), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(10) .cube:nth-of-type(6) .top {
+  background-color: rgb(calc(188), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(10) .cube:nth-of-type(7) {
+  animation: a-cube-wave 2.3s ease-in-out calc(15*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(10) .cube:nth-of-type(7) div:not(.top) {
+  background-color: rgb(calc(197), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(10) .cube:nth-of-type(7) .top {
+  background-color: rgb(calc(185), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(10) .cube:nth-of-type(8) {
+  animation: a-cube-wave 2.3s ease-in-out calc(16*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(10) .cube:nth-of-type(8) div:not(.top) {
+  background-color: rgb(calc(132), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(10) .cube:nth-of-type(8) .top {
+  background-color: rgb(calc(254), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(10) .cube:nth-of-type(9) {
+  animation: a-cube-wave 2.3s ease-in-out calc(17*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(10) .cube:nth-of-type(9) div:not(.top) {
+  background-color: rgb(calc(188), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(10) .cube:nth-of-type(9) .top {
+  background-color: rgb(calc(178), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(10) .cube:nth-of-type(10) {
+  animation: a-cube-wave 2.3s ease-in-out calc(18*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(10) .cube:nth-of-type(10) div:not(.top) {
+  background-color: rgb(calc(168), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(10) .cube:nth-of-type(10) .top {
+  background-color: rgb(calc(224), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(10) .cube:nth-of-type(11) {
+  animation: a-cube-wave 2.3s ease-in-out calc(19*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(10) .cube:nth-of-type(11) div:not(.top) {
+  background-color: rgb(calc(156), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(10) .cube:nth-of-type(11) .top {
+  background-color: rgb(calc(177), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(10) .cube:nth-of-type(12) {
+  animation: a-cube-wave 2.3s ease-in-out calc(20*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(10) .cube:nth-of-type(12) div:not(.top) {
+  background-color: rgb(calc(90), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(10) .cube:nth-of-type(12) .top {
+  background-color: rgb(calc(251), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(10) .cube:nth-of-type(13) {
+  animation: a-cube-wave 2.3s ease-in-out calc(21*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(10) .cube:nth-of-type(13) div:not(.top) {
+  background-color: rgb(calc(132), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(10) .cube:nth-of-type(13) .top {
+  background-color: rgb(calc(221), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(10) .cube:nth-of-type(14) {
+  animation: a-cube-wave 2.3s ease-in-out calc(22*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(10) .cube:nth-of-type(14) div:not(.top) {
+  background-color: rgb(calc(115), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(10) .cube:nth-of-type(14) .top {
+  background-color: rgb(calc(131), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(10) .cube:nth-of-type(15) {
+  animation: a-cube-wave 2.3s ease-in-out calc(23*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(10) .cube:nth-of-type(15) div:not(.top) {
+  background-color: rgb(calc(89), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(10) .cube:nth-of-type(15) .top {
+  background-color: rgb(calc(120), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(10) .cube:nth-of-type(16) {
+  animation: a-cube-wave 2.3s ease-in-out calc(24*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(10) .cube:nth-of-type(16) div:not(.top) {
+  background-color: rgb(calc(105), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(10) .cube:nth-of-type(16) .top {
+  background-color: rgb(calc(253), 0, 255);
+}
+.stage3 .plane .cube:nth-of-type(10) {
+  left: 360px;
+}
+.stage3 .plane .row:nth-of-type(11) {
+  top: 400px;
+}
+.stage3 .plane .row:nth-of-type(11) .cube:nth-of-type(1) {
+  animation: a-cube-wave 2.3s ease-in-out calc(10*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(11) .cube:nth-of-type(1) div:not(.top) {
+  background-color: rgb(calc(116), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(11) .cube:nth-of-type(1) .top {
+  background-color: rgb(calc(176), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(11) .cube:nth-of-type(2) {
+  animation: a-cube-wave 2.3s ease-in-out calc(11*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(11) .cube:nth-of-type(2) div:not(.top) {
+  background-color: rgb(calc(187), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(11) .cube:nth-of-type(2) .top {
+  background-color: rgb(calc(150), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(11) .cube:nth-of-type(3) {
+  animation: a-cube-wave 2.3s ease-in-out calc(12*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(11) .cube:nth-of-type(3) div:not(.top) {
+  background-color: rgb(calc(167), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(11) .cube:nth-of-type(3) .top {
+  background-color: rgb(calc(168), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(11) .cube:nth-of-type(4) {
+  animation: a-cube-wave 2.3s ease-in-out calc(13*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(11) .cube:nth-of-type(4) div:not(.top) {
+  background-color: rgb(calc(95), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(11) .cube:nth-of-type(4) .top {
+  background-color: rgb(calc(154), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(11) .cube:nth-of-type(5) {
+  animation: a-cube-wave 2.3s ease-in-out calc(14*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(11) .cube:nth-of-type(5) div:not(.top) {
+  background-color: rgb(calc(73), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(11) .cube:nth-of-type(5) .top {
+  background-color: rgb(calc(226), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(11) .cube:nth-of-type(6) {
+  animation: a-cube-wave 2.3s ease-in-out calc(15*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(11) .cube:nth-of-type(6) div:not(.top) {
+  background-color: rgb(calc(128), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(11) .cube:nth-of-type(6) .top {
+  background-color: rgb(calc(103), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(11) .cube:nth-of-type(7) {
+  animation: a-cube-wave 2.3s ease-in-out calc(16*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(11) .cube:nth-of-type(7) div:not(.top) {
+  background-color: rgb(calc(193), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(11) .cube:nth-of-type(7) .top {
+  background-color: rgb(calc(149), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(11) .cube:nth-of-type(8) {
+  animation: a-cube-wave 2.3s ease-in-out calc(17*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(11) .cube:nth-of-type(8) div:not(.top) {
+  background-color: rgb(calc(132), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(11) .cube:nth-of-type(8) .top {
+  background-color: rgb(calc(174), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(11) .cube:nth-of-type(9) {
+  animation: a-cube-wave 2.3s ease-in-out calc(18*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(11) .cube:nth-of-type(9) div:not(.top) {
+  background-color: rgb(calc(134), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(11) .cube:nth-of-type(9) .top {
+  background-color: rgb(calc(226), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(11) .cube:nth-of-type(10) {
+  animation: a-cube-wave 2.3s ease-in-out calc(19*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(11) .cube:nth-of-type(10) div:not(.top) {
+  background-color: rgb(calc(89), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(11) .cube:nth-of-type(10) .top {
+  background-color: rgb(calc(250), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(11) .cube:nth-of-type(11) {
+  animation: a-cube-wave 2.3s ease-in-out calc(20*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(11) .cube:nth-of-type(11) div:not(.top) {
+  background-color: rgb(calc(80), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(11) .cube:nth-of-type(11) .top {
+  background-color: rgb(calc(224), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(11) .cube:nth-of-type(12) {
+  animation: a-cube-wave 2.3s ease-in-out calc(21*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(11) .cube:nth-of-type(12) div:not(.top) {
+  background-color: rgb(calc(53), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(11) .cube:nth-of-type(12) .top {
+  background-color: rgb(calc(111), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(11) .cube:nth-of-type(13) {
+  animation: a-cube-wave 2.3s ease-in-out calc(22*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(11) .cube:nth-of-type(13) div:not(.top) {
+  background-color: rgb(calc(54), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(11) .cube:nth-of-type(13) .top {
+  background-color: rgb(calc(218), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(11) .cube:nth-of-type(14) {
+  animation: a-cube-wave 2.3s ease-in-out calc(23*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(11) .cube:nth-of-type(14) div:not(.top) {
+  background-color: rgb(calc(75), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(11) .cube:nth-of-type(14) .top {
+  background-color: rgb(calc(171), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(11) .cube:nth-of-type(15) {
+  animation: a-cube-wave 2.3s ease-in-out calc(24*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(11) .cube:nth-of-type(15) div:not(.top) {
+  background-color: rgb(calc(119), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(11) .cube:nth-of-type(15) .top {
+  background-color: rgb(calc(224), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(11) .cube:nth-of-type(16) {
+  animation: a-cube-wave 2.3s ease-in-out calc(25*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(11) .cube:nth-of-type(16) div:not(.top) {
+  background-color: rgb(calc(76), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(11) .cube:nth-of-type(16) .top {
+  background-color: rgb(calc(247), 0, 255);
+}
+.stage3 .plane .cube:nth-of-type(11) {
+  left: 400px;
+}
+.stage3 .plane .row:nth-of-type(12) {
+  top: 440px;
+}
+.stage3 .plane .row:nth-of-type(12) .cube:nth-of-type(1) {
+  animation: a-cube-wave 2.3s ease-in-out calc(11*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(12) .cube:nth-of-type(1) div:not(.top) {
+  background-color: rgb(calc(194), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(12) .cube:nth-of-type(1) .top {
+  background-color: rgb(calc(242), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(12) .cube:nth-of-type(2) {
+  animation: a-cube-wave 2.3s ease-in-out calc(12*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(12) .cube:nth-of-type(2) div:not(.top) {
+  background-color: rgb(calc(182), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(12) .cube:nth-of-type(2) .top {
+  background-color: rgb(calc(189), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(12) .cube:nth-of-type(3) {
+  animation: a-cube-wave 2.3s ease-in-out calc(13*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(12) .cube:nth-of-type(3) div:not(.top) {
+  background-color: rgb(calc(94), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(12) .cube:nth-of-type(3) .top {
+  background-color: rgb(calc(116), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(12) .cube:nth-of-type(4) {
+  animation: a-cube-wave 2.3s ease-in-out calc(14*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(12) .cube:nth-of-type(4) div:not(.top) {
+  background-color: rgb(calc(68), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(12) .cube:nth-of-type(4) .top {
+  background-color: rgb(calc(111), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(12) .cube:nth-of-type(5) {
+  animation: a-cube-wave 2.3s ease-in-out calc(15*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(12) .cube:nth-of-type(5) div:not(.top) {
+  background-color: rgb(calc(63), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(12) .cube:nth-of-type(5) .top {
+  background-color: rgb(calc(140), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(12) .cube:nth-of-type(6) {
+  animation: a-cube-wave 2.3s ease-in-out calc(16*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(12) .cube:nth-of-type(6) div:not(.top) {
+  background-color: rgb(calc(130), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(12) .cube:nth-of-type(6) .top {
+  background-color: rgb(calc(127), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(12) .cube:nth-of-type(7) {
+  animation: a-cube-wave 2.3s ease-in-out calc(17*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(12) .cube:nth-of-type(7) div:not(.top) {
+  background-color: rgb(calc(71), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(12) .cube:nth-of-type(7) .top {
+  background-color: rgb(calc(140), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(12) .cube:nth-of-type(8) {
+  animation: a-cube-wave 2.3s ease-in-out calc(18*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(12) .cube:nth-of-type(8) div:not(.top) {
+  background-color: rgb(calc(62), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(12) .cube:nth-of-type(8) .top {
+  background-color: rgb(calc(125), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(12) .cube:nth-of-type(9) {
+  animation: a-cube-wave 2.3s ease-in-out calc(19*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(12) .cube:nth-of-type(9) div:not(.top) {
+  background-color: rgb(calc(59), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(12) .cube:nth-of-type(9) .top {
+  background-color: rgb(calc(204), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(12) .cube:nth-of-type(10) {
+  animation: a-cube-wave 2.3s ease-in-out calc(20*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(12) .cube:nth-of-type(10) div:not(.top) {
+  background-color: rgb(calc(164), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(12) .cube:nth-of-type(10) .top {
+  background-color: rgb(calc(123), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(12) .cube:nth-of-type(11) {
+  animation: a-cube-wave 2.3s ease-in-out calc(21*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(12) .cube:nth-of-type(11) div:not(.top) {
+  background-color: rgb(calc(204), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(12) .cube:nth-of-type(11) .top {
+  background-color: rgb(calc(136), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(12) .cube:nth-of-type(12) {
+  animation: a-cube-wave 2.3s ease-in-out calc(22*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(12) .cube:nth-of-type(12) div:not(.top) {
+  background-color: rgb(calc(107), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(12) .cube:nth-of-type(12) .top {
+  background-color: rgb(calc(240), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(12) .cube:nth-of-type(13) {
+  animation: a-cube-wave 2.3s ease-in-out calc(23*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(12) .cube:nth-of-type(13) div:not(.top) {
+  background-color: rgb(calc(187), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(12) .cube:nth-of-type(13) .top {
+  background-color: rgb(calc(130), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(12) .cube:nth-of-type(14) {
+  animation: a-cube-wave 2.3s ease-in-out calc(24*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(12) .cube:nth-of-type(14) div:not(.top) {
+  background-color: rgb(calc(188), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(12) .cube:nth-of-type(14) .top {
+  background-color: rgb(calc(134), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(12) .cube:nth-of-type(15) {
+  animation: a-cube-wave 2.3s ease-in-out calc(25*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(12) .cube:nth-of-type(15) div:not(.top) {
+  background-color: rgb(calc(138), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(12) .cube:nth-of-type(15) .top {
+  background-color: rgb(calc(243), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(12) .cube:nth-of-type(16) {
+  animation: a-cube-wave 2.3s ease-in-out calc(26*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(12) .cube:nth-of-type(16) div:not(.top) {
+  background-color: rgb(calc(179), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(12) .cube:nth-of-type(16) .top {
+  background-color: rgb(calc(116), 0, 255);
+}
+.stage3 .plane .cube:nth-of-type(12) {
+  left: 440px;
+}
+.stage3 .plane .row:nth-of-type(13) {
+  top: 480px;
+}
+.stage3 .plane .row:nth-of-type(13) .cube:nth-of-type(1) {
+  animation: a-cube-wave 2.3s ease-in-out calc(12*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(13) .cube:nth-of-type(1) div:not(.top) {
+  background-color: rgb(calc(60), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(13) .cube:nth-of-type(1) .top {
+  background-color: rgb(calc(235), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(13) .cube:nth-of-type(2) {
+  animation: a-cube-wave 2.3s ease-in-out calc(13*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(13) .cube:nth-of-type(2) div:not(.top) {
+  background-color: rgb(calc(129), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(13) .cube:nth-of-type(2) .top {
+  background-color: rgb(calc(231), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(13) .cube:nth-of-type(3) {
+  animation: a-cube-wave 2.3s ease-in-out calc(14*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(13) .cube:nth-of-type(3) div:not(.top) {
+  background-color: rgb(calc(118), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(13) .cube:nth-of-type(3) .top {
+  background-color: rgb(calc(211), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(13) .cube:nth-of-type(4) {
+  animation: a-cube-wave 2.3s ease-in-out calc(15*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(13) .cube:nth-of-type(4) div:not(.top) {
+  background-color: rgb(calc(164), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(13) .cube:nth-of-type(4) .top {
+  background-color: rgb(calc(230), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(13) .cube:nth-of-type(5) {
+  animation: a-cube-wave 2.3s ease-in-out calc(16*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(13) .cube:nth-of-type(5) div:not(.top) {
+  background-color: rgb(calc(194), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(13) .cube:nth-of-type(5) .top {
+  background-color: rgb(calc(234), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(13) .cube:nth-of-type(6) {
+  animation: a-cube-wave 2.3s ease-in-out calc(17*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(13) .cube:nth-of-type(6) div:not(.top) {
+  background-color: rgb(calc(112), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(13) .cube:nth-of-type(6) .top {
+  background-color: rgb(calc(118), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(13) .cube:nth-of-type(7) {
+  animation: a-cube-wave 2.3s ease-in-out calc(18*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(13) .cube:nth-of-type(7) div:not(.top) {
+  background-color: rgb(calc(180), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(13) .cube:nth-of-type(7) .top {
+  background-color: rgb(calc(241), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(13) .cube:nth-of-type(8) {
+  animation: a-cube-wave 2.3s ease-in-out calc(19*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(13) .cube:nth-of-type(8) div:not(.top) {
+  background-color: rgb(calc(90), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(13) .cube:nth-of-type(8) .top {
+  background-color: rgb(calc(140), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(13) .cube:nth-of-type(9) {
+  animation: a-cube-wave 2.3s ease-in-out calc(20*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(13) .cube:nth-of-type(9) div:not(.top) {
+  background-color: rgb(calc(166), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(13) .cube:nth-of-type(9) .top {
+  background-color: rgb(calc(179), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(13) .cube:nth-of-type(10) {
+  animation: a-cube-wave 2.3s ease-in-out calc(21*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(13) .cube:nth-of-type(10) div:not(.top) {
+  background-color: rgb(calc(127), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(13) .cube:nth-of-type(10) .top {
+  background-color: rgb(calc(139), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(13) .cube:nth-of-type(11) {
+  animation: a-cube-wave 2.3s ease-in-out calc(22*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(13) .cube:nth-of-type(11) div:not(.top) {
+  background-color: rgb(calc(109), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(13) .cube:nth-of-type(11) .top {
+  background-color: rgb(calc(182), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(13) .cube:nth-of-type(12) {
+  animation: a-cube-wave 2.3s ease-in-out calc(23*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(13) .cube:nth-of-type(12) div:not(.top) {
+  background-color: rgb(calc(135), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(13) .cube:nth-of-type(12) .top {
+  background-color: rgb(calc(178), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(13) .cube:nth-of-type(13) {
+  animation: a-cube-wave 2.3s ease-in-out calc(24*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(13) .cube:nth-of-type(13) div:not(.top) {
+  background-color: rgb(calc(184), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(13) .cube:nth-of-type(13) .top {
+  background-color: rgb(calc(188), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(13) .cube:nth-of-type(14) {
+  animation: a-cube-wave 2.3s ease-in-out calc(25*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(13) .cube:nth-of-type(14) div:not(.top) {
+  background-color: rgb(calc(116), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(13) .cube:nth-of-type(14) .top {
+  background-color: rgb(calc(157), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(13) .cube:nth-of-type(15) {
+  animation: a-cube-wave 2.3s ease-in-out calc(26*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(13) .cube:nth-of-type(15) div:not(.top) {
+  background-color: rgb(calc(161), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(13) .cube:nth-of-type(15) .top {
+  background-color: rgb(calc(126), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(13) .cube:nth-of-type(16) {
+  animation: a-cube-wave 2.3s ease-in-out calc(27*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(13) .cube:nth-of-type(16) div:not(.top) {
+  background-color: rgb(calc(133), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(13) .cube:nth-of-type(16) .top {
+  background-color: rgb(calc(241), 0, 255);
+}
+.stage3 .plane .cube:nth-of-type(13) {
+  left: 480px;
+}
+.stage3 .plane .row:nth-of-type(14) {
+  top: 520px;
+}
+.stage3 .plane .row:nth-of-type(14) .cube:nth-of-type(1) {
+  animation: a-cube-wave 2.3s ease-in-out calc(13*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(14) .cube:nth-of-type(1) div:not(.top) {
+  background-color: rgb(calc(196), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(14) .cube:nth-of-type(1) .top {
+  background-color: rgb(calc(140), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(14) .cube:nth-of-type(2) {
+  animation: a-cube-wave 2.3s ease-in-out calc(14*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(14) .cube:nth-of-type(2) div:not(.top) {
+  background-color: rgb(calc(64), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(14) .cube:nth-of-type(2) .top {
+  background-color: rgb(calc(221), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(14) .cube:nth-of-type(3) {
+  animation: a-cube-wave 2.3s ease-in-out calc(15*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(14) .cube:nth-of-type(3) div:not(.top) {
+  background-color: rgb(calc(181), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(14) .cube:nth-of-type(3) .top {
+  background-color: rgb(calc(224), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(14) .cube:nth-of-type(4) {
+  animation: a-cube-wave 2.3s ease-in-out calc(16*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(14) .cube:nth-of-type(4) div:not(.top) {
+  background-color: rgb(calc(166), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(14) .cube:nth-of-type(4) .top {
+  background-color: rgb(calc(188), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(14) .cube:nth-of-type(5) {
+  animation: a-cube-wave 2.3s ease-in-out calc(17*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(14) .cube:nth-of-type(5) div:not(.top) {
+  background-color: rgb(calc(154), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(14) .cube:nth-of-type(5) .top {
+  background-color: rgb(calc(108), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(14) .cube:nth-of-type(6) {
+  animation: a-cube-wave 2.3s ease-in-out calc(18*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(14) .cube:nth-of-type(6) div:not(.top) {
+  background-color: rgb(calc(116), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(14) .cube:nth-of-type(6) .top {
+  background-color: rgb(calc(193), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(14) .cube:nth-of-type(7) {
+  animation: a-cube-wave 2.3s ease-in-out calc(19*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(14) .cube:nth-of-type(7) div:not(.top) {
+  background-color: rgb(calc(120), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(14) .cube:nth-of-type(7) .top {
+  background-color: rgb(calc(199), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(14) .cube:nth-of-type(8) {
+  animation: a-cube-wave 2.3s ease-in-out calc(20*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(14) .cube:nth-of-type(8) div:not(.top) {
+  background-color: rgb(calc(76), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(14) .cube:nth-of-type(8) .top {
+  background-color: rgb(calc(120), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(14) .cube:nth-of-type(9) {
+  animation: a-cube-wave 2.3s ease-in-out calc(21*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(14) .cube:nth-of-type(9) div:not(.top) {
+  background-color: rgb(calc(53), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(14) .cube:nth-of-type(9) .top {
+  background-color: rgb(calc(102), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(14) .cube:nth-of-type(10) {
+  animation: a-cube-wave 2.3s ease-in-out calc(22*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(14) .cube:nth-of-type(10) div:not(.top) {
+  background-color: rgb(calc(144), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(14) .cube:nth-of-type(10) .top {
+  background-color: rgb(calc(194), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(14) .cube:nth-of-type(11) {
+  animation: a-cube-wave 2.3s ease-in-out calc(23*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(14) .cube:nth-of-type(11) div:not(.top) {
+  background-color: rgb(calc(80), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(14) .cube:nth-of-type(11) .top {
+  background-color: rgb(calc(221), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(14) .cube:nth-of-type(12) {
+  animation: a-cube-wave 2.3s ease-in-out calc(24*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(14) .cube:nth-of-type(12) div:not(.top) {
+  background-color: rgb(calc(132), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(14) .cube:nth-of-type(12) .top {
+  background-color: rgb(calc(198), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(14) .cube:nth-of-type(13) {
+  animation: a-cube-wave 2.3s ease-in-out calc(25*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(14) .cube:nth-of-type(13) div:not(.top) {
+  background-color: rgb(calc(70), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(14) .cube:nth-of-type(13) .top {
+  background-color: rgb(calc(249), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(14) .cube:nth-of-type(14) {
+  animation: a-cube-wave 2.3s ease-in-out calc(26*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(14) .cube:nth-of-type(14) div:not(.top) {
+  background-color: rgb(calc(122), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(14) .cube:nth-of-type(14) .top {
+  background-color: rgb(calc(187), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(14) .cube:nth-of-type(15) {
+  animation: a-cube-wave 2.3s ease-in-out calc(27*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(14) .cube:nth-of-type(15) div:not(.top) {
+  background-color: rgb(calc(131), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(14) .cube:nth-of-type(15) .top {
+  background-color: rgb(calc(109), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(14) .cube:nth-of-type(16) {
+  animation: a-cube-wave 2.3s ease-in-out calc(28*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(14) .cube:nth-of-type(16) div:not(.top) {
+  background-color: rgb(calc(187), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(14) .cube:nth-of-type(16) .top {
+  background-color: rgb(calc(193), 0, 255);
+}
+.stage3 .plane .cube:nth-of-type(14) {
+  left: 520px;
+}
+.stage3 .plane .row:nth-of-type(15) {
+  top: 560px;
+}
+.stage3 .plane .row:nth-of-type(15) .cube:nth-of-type(1) {
+  animation: a-cube-wave 2.3s ease-in-out calc(14*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(15) .cube:nth-of-type(1) div:not(.top) {
+  background-color: rgb(calc(95), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(15) .cube:nth-of-type(1) .top {
+  background-color: rgb(calc(121), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(15) .cube:nth-of-type(2) {
+  animation: a-cube-wave 2.3s ease-in-out calc(15*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(15) .cube:nth-of-type(2) div:not(.top) {
+  background-color: rgb(calc(123), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(15) .cube:nth-of-type(2) .top {
+  background-color: rgb(calc(249), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(15) .cube:nth-of-type(3) {
+  animation: a-cube-wave 2.3s ease-in-out calc(16*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(15) .cube:nth-of-type(3) div:not(.top) {
+  background-color: rgb(calc(68), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(15) .cube:nth-of-type(3) .top {
+  background-color: rgb(calc(152), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(15) .cube:nth-of-type(4) {
+  animation: a-cube-wave 2.3s ease-in-out calc(17*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(15) .cube:nth-of-type(4) div:not(.top) {
+  background-color: rgb(calc(199), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(15) .cube:nth-of-type(4) .top {
+  background-color: rgb(calc(141), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(15) .cube:nth-of-type(5) {
+  animation: a-cube-wave 2.3s ease-in-out calc(18*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(15) .cube:nth-of-type(5) div:not(.top) {
+  background-color: rgb(calc(61), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(15) .cube:nth-of-type(5) .top {
+  background-color: rgb(calc(163), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(15) .cube:nth-of-type(6) {
+  animation: a-cube-wave 2.3s ease-in-out calc(19*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(15) .cube:nth-of-type(6) div:not(.top) {
+  background-color: rgb(calc(54), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(15) .cube:nth-of-type(6) .top {
+  background-color: rgb(calc(138), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(15) .cube:nth-of-type(7) {
+  animation: a-cube-wave 2.3s ease-in-out calc(20*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(15) .cube:nth-of-type(7) div:not(.top) {
+  background-color: rgb(calc(128), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(15) .cube:nth-of-type(7) .top {
+  background-color: rgb(calc(126), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(15) .cube:nth-of-type(8) {
+  animation: a-cube-wave 2.3s ease-in-out calc(21*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(15) .cube:nth-of-type(8) div:not(.top) {
+  background-color: rgb(calc(202), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(15) .cube:nth-of-type(8) .top {
+  background-color: rgb(calc(255), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(15) .cube:nth-of-type(9) {
+  animation: a-cube-wave 2.3s ease-in-out calc(22*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(15) .cube:nth-of-type(9) div:not(.top) {
+  background-color: rgb(calc(148), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(15) .cube:nth-of-type(9) .top {
+  background-color: rgb(calc(206), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(15) .cube:nth-of-type(10) {
+  animation: a-cube-wave 2.3s ease-in-out calc(23*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(15) .cube:nth-of-type(10) div:not(.top) {
+  background-color: rgb(calc(74), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(15) .cube:nth-of-type(10) .top {
+  background-color: rgb(calc(218), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(15) .cube:nth-of-type(11) {
+  animation: a-cube-wave 2.3s ease-in-out calc(24*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(15) .cube:nth-of-type(11) div:not(.top) {
+  background-color: rgb(calc(72), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(15) .cube:nth-of-type(11) .top {
+  background-color: rgb(calc(202), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(15) .cube:nth-of-type(12) {
+  animation: a-cube-wave 2.3s ease-in-out calc(25*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(15) .cube:nth-of-type(12) div:not(.top) {
+  background-color: rgb(calc(146), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(15) .cube:nth-of-type(12) .top {
+  background-color: rgb(calc(247), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(15) .cube:nth-of-type(13) {
+  animation: a-cube-wave 2.3s ease-in-out calc(26*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(15) .cube:nth-of-type(13) div:not(.top) {
+  background-color: rgb(calc(161), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(15) .cube:nth-of-type(13) .top {
+  background-color: rgb(calc(167), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(15) .cube:nth-of-type(14) {
+  animation: a-cube-wave 2.3s ease-in-out calc(27*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(15) .cube:nth-of-type(14) div:not(.top) {
+  background-color: rgb(calc(129), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(15) .cube:nth-of-type(14) .top {
+  background-color: rgb(calc(192), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(15) .cube:nth-of-type(15) {
+  animation: a-cube-wave 2.3s ease-in-out calc(28*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(15) .cube:nth-of-type(15) div:not(.top) {
+  background-color: rgb(calc(52), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(15) .cube:nth-of-type(15) .top {
+  background-color: rgb(calc(202), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(15) .cube:nth-of-type(16) {
+  animation: a-cube-wave 2.3s ease-in-out calc(29*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(15) .cube:nth-of-type(16) div:not(.top) {
+  background-color: rgb(calc(124), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(15) .cube:nth-of-type(16) .top {
+  background-color: rgb(calc(129), 0, 255);
+}
+.stage3 .plane .cube:nth-of-type(15) {
+  left: 560px;
+}
+.stage3 .plane .row:nth-of-type(16) {
+  top: 600px;
+}
+.stage3 .plane .row:nth-of-type(16) .cube:nth-of-type(1) {
+  animation: a-cube-wave 2.3s ease-in-out calc(15*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(16) .cube:nth-of-type(1) div:not(.top) {
+  background-color: rgb(calc(199), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(16) .cube:nth-of-type(1) .top {
+  background-color: rgb(calc(114), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(16) .cube:nth-of-type(2) {
+  animation: a-cube-wave 2.3s ease-in-out calc(16*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(16) .cube:nth-of-type(2) div:not(.top) {
+  background-color: rgb(calc(94), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(16) .cube:nth-of-type(2) .top {
+  background-color: rgb(calc(156), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(16) .cube:nth-of-type(3) {
+  animation: a-cube-wave 2.3s ease-in-out calc(17*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(16) .cube:nth-of-type(3) div:not(.top) {
+  background-color: rgb(calc(96), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(16) .cube:nth-of-type(3) .top {
+  background-color: rgb(calc(188), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(16) .cube:nth-of-type(4) {
+  animation: a-cube-wave 2.3s ease-in-out calc(18*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(16) .cube:nth-of-type(4) div:not(.top) {
+  background-color: rgb(calc(89), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(16) .cube:nth-of-type(4) .top {
+  background-color: rgb(calc(110), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(16) .cube:nth-of-type(5) {
+  animation: a-cube-wave 2.3s ease-in-out calc(19*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(16) .cube:nth-of-type(5) div:not(.top) {
+  background-color: rgb(calc(118), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(16) .cube:nth-of-type(5) .top {
+  background-color: rgb(calc(134), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(16) .cube:nth-of-type(6) {
+  animation: a-cube-wave 2.3s ease-in-out calc(20*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(16) .cube:nth-of-type(6) div:not(.top) {
+  background-color: rgb(calc(194), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(16) .cube:nth-of-type(6) .top {
+  background-color: rgb(calc(121), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(16) .cube:nth-of-type(7) {
+  animation: a-cube-wave 2.3s ease-in-out calc(21*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(16) .cube:nth-of-type(7) div:not(.top) {
+  background-color: rgb(calc(173), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(16) .cube:nth-of-type(7) .top {
+  background-color: rgb(calc(163), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(16) .cube:nth-of-type(8) {
+  animation: a-cube-wave 2.3s ease-in-out calc(22*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(16) .cube:nth-of-type(8) div:not(.top) {
+  background-color: rgb(calc(145), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(16) .cube:nth-of-type(8) .top {
+  background-color: rgb(calc(155), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(16) .cube:nth-of-type(9) {
+  animation: a-cube-wave 2.3s ease-in-out calc(23*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(16) .cube:nth-of-type(9) div:not(.top) {
+  background-color: rgb(calc(71), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(16) .cube:nth-of-type(9) .top {
+  background-color: rgb(calc(180), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(16) .cube:nth-of-type(10) {
+  animation: a-cube-wave 2.3s ease-in-out calc(24*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(16) .cube:nth-of-type(10) div:not(.top) {
+  background-color: rgb(calc(120), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(16) .cube:nth-of-type(10) .top {
+  background-color: rgb(calc(232), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(16) .cube:nth-of-type(11) {
+  animation: a-cube-wave 2.3s ease-in-out calc(25*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(16) .cube:nth-of-type(11) div:not(.top) {
+  background-color: rgb(calc(192), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(16) .cube:nth-of-type(11) .top {
+  background-color: rgb(calc(178), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(16) .cube:nth-of-type(12) {
+  animation: a-cube-wave 2.3s ease-in-out calc(26*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(16) .cube:nth-of-type(12) div:not(.top) {
+  background-color: rgb(calc(54), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(16) .cube:nth-of-type(12) .top {
+  background-color: rgb(calc(250), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(16) .cube:nth-of-type(13) {
+  animation: a-cube-wave 2.3s ease-in-out calc(27*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(16) .cube:nth-of-type(13) div:not(.top) {
+  background-color: rgb(calc(186), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(16) .cube:nth-of-type(13) .top {
+  background-color: rgb(calc(212), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(16) .cube:nth-of-type(14) {
+  animation: a-cube-wave 2.3s ease-in-out calc(28*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(16) .cube:nth-of-type(14) div:not(.top) {
+  background-color: rgb(calc(121), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(16) .cube:nth-of-type(14) .top {
+  background-color: rgb(calc(128), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(16) .cube:nth-of-type(15) {
+  animation: a-cube-wave 2.3s ease-in-out calc(29*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(16) .cube:nth-of-type(15) div:not(.top) {
+  background-color: rgb(calc(151), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(16) .cube:nth-of-type(15) .top {
+  background-color: rgb(calc(166), 0, 255);
+}
+.stage3 .plane .row:nth-of-type(16) .cube:nth-of-type(16) {
+  animation: a-cube-wave 2.3s ease-in-out calc(30*.1s) infinite;
+}
+.stage3 .plane .row:nth-of-type(16) .cube:nth-of-type(16) div:not(.top) {
+  background-color: rgb(calc(93), 0, 200);
+}
+.stage3 .plane .row:nth-of-type(16) .cube:nth-of-type(16) .top {
+  background-color: rgb(calc(113), 0, 255);
+}
+.stage3 .plane .cube:nth-of-type(16) {
+  left: 600px;
+}
+.stage3 .plane .row {
+  position: absolute;
+  width: 640px;
+  height: 40px;
+}
+@keyframes a-cube-wave {
+  0% {
+    transform: translateZ(50px);
+  }
+  50% {
+    transform: translateZ(-50px);
+  }
+  100% {
+    transform: translateZ(50px);
+  }
+}
+@keyframes a-plane-rotate {
+  0% {
+    transform: rotateX(246deg) rotateZ(0deg);
+  }
+  50% {
+    transform: rotateX(266deg) rotateZ(180deg);
+  }
+  100% {
+    transform: rotateX(246deg) rotateZ(360deg);
+  }
+}/*# sourceMappingURL=runner.css.map */
